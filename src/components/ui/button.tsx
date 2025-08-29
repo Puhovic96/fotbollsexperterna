@@ -18,12 +18,18 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Football-themed variants
+        hero: "bg-gradient-field text-field-white shadow-field hover:shadow-goal hover:-translate-y-1 transition-all duration-300",
+        goal: "bg-gradient-goal text-football-green-dark shadow-goal hover:shadow-goal hover:scale-105 transition-all duration-300",
+        field: "bg-football-green text-field-white border-2 border-field-white/20 hover:bg-football-green-light hover:border-field-white/40",
+        pitch: "bg-card text-card-foreground border-2 border-football-green hover:bg-football-green hover:text-field-white shadow-card-custom",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        hero: "h-14 px-8 py-4 text-lg font-semibold",
       },
     },
     defaultVariants: {

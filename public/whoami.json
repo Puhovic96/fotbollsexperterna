@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Lionel Messi",
+    "clues": [
+      "Jag är från Argentina och anses vara en av de bästa spelarna genom tiderna",
+      "Jag spelade nästan hela min karriär i Barcelona",
+      "Jag har vunnit Ballon d'Or fler gånger än någon annan",
+      "Jag har en berömda rivalitet med Cristiano Ronaldo",
+      "Jag vann VM 2022 med Argentina",
+      "Jag kallas ofta 'La Pulga' (Loppan)",
+      "Jag spelar nu i Inter Miami i MLS"
+    ],
+    "maxPoints": 70,
+    "photoUrl": "https://example.com/messi.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cristiano Ronaldo",
+    "clues": [
+      "Jag är från Portugal och är en av fotbollshistoriens bästa målskyttar",
+      "Jag har spelat i Premier League, La Liga, Serie A och nu i Saudiarabien",
+      "Jag är känd för min fysiska styrka och träningsdisciplin",
+      "Jag har vunnit Champions League med tre olika klubbar",
+      "Jag har flest mål i Champions League-historien",
+      "Mitt nummer har ofta varit 7",
+      "Jag spelar nu för Al-Nassr i Saudiarabien"
+    ],
+    "maxPoints": 70,
+    "photoUrl": "https://example.com/ronaldo.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pelé",
+    "clues": [
+      "Jag anses vara fotbollens konung och kommer från Brasilien",
+      "Jag vann tre VM-titlar som spelare",
+      "Jag gjorde över 1000 mål i min karriär",
+      "Jag spelade nästan hela min karriär för Santos",
+      "Jag var bara 17 år när jag vann mitt första VM 1958",
+      "Mitt riktiga namn är Edson Arantes do Nascimento",
+      "Jag avslutade karriären i New York Cosmos"
+    ],
+    "maxPoints": 70,
+    "photoUrl": "https://example.com/pele.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Diego Maradona",
+    "clues": [
+      "Jag är från Argentina och ledde mitt land till VM-guld 1986",
+      "Jag är känd för 'Guds hand'-målet mot England",
+      "Jag gjorde också 'århundradets mål' i samma match",
+      "Jag spelade för Napoli och gjorde dem till italienska mästare",
+      "Jag hade problem med droger under min karriär",
+      "Jag var tränare för Argentina under VM 2010",
+      "Jag dog 2020 och hyllas fortfarande som en gud i Napoli"
+    ],
+    "maxPoints": 70,
+    "photoUrl": "https://example.com/maradona.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Johan Cruyff",
+    "clues": [
+      "Jag är från Nederländerna och revolutionerade fotbollen både som spelare och tränare",
+      "Jag var en viktig del av Ajax gyllene era på 1970-talet",
+      "Jag skapade 'Total Football' tillsammans med Rinus Michels",
+      "Jag vann tre Ballon d'Or som spelare",
+      "Som tränare vann jag Champions League med Barcelona",
+      "Det finns en berömd fintning uppkallad efter mig - 'Cruyff-vändningen'",
+      "Jag dog 2016 och har en arena uppkallad efter mig i Amsterdam"
+    ],
+    "maxPoints": 70,
+    "photoUrl": "https://example.com/cruyff.jpg"
+  }
+]

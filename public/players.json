@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1,
+    "name": "Zlatan Ibrahimović",
+    "career": [
+      { "club": "Malmö FF", "year": "1999-2001", "country": "Sverige" },
+      { "club": "Ajax", "year": "2001-2004", "country": "Nederländerna" },
+      { "club": "Juventus", "year": "2004-2006", "country": "Italien" },
+      { "club": "Inter Milan", "year": "2006-2009", "country": "Italien" },
+      { "club": "Barcelona", "year": "2009-2010", "country": "Spanien" },
+      { "club": "AC Milan", "year": "2010-2012", "country": "Italien" },
+      { "club": "Paris Saint-Germain", "year": "2012-2016", "country": "Frankrike" },
+      { "club": "Manchester United", "year": "2016-2018", "country": "England" },
+      { "club": "LA Galaxy", "year": "2018-2019", "country": "USA" },
+      { "club": "AC Milan", "year": "2020-2023", "country": "Italien" }
+    ],
+    "photoUrl": "https://example.com/zlatan.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Thierry Henry",
+    "career": [
+      { "club": "AS Monaco", "year": "1994-1999", "country": "Frankrike" },
+      { "club": "Arsenal", "year": "1999-2007", "country": "England" },
+      { "club": "Barcelona", "year": "2007-2010", "country": "Spanien" },
+      { "club": "New York Red Bulls", "year": "2010-2014", "country": "USA" }
+    ],
+    "photoUrl": "https://example.com/henry.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Andrea Pirlo",
+    "career": [
+      { "club": "Brescia", "year": "1995-1998", "country": "Italien" },
+      { "club": "Inter Milan", "year": "1998-2001", "country": "Italien" },
+      { "club": "AC Milan", "year": "2001-2011", "country": "Italien" },
+      { "club": "Juventus", "year": "2011-2014", "country": "Italien" },
+      { "club": "New York City FC", "year": "2014-2015", "country": "USA" }
+    ],
+    "photoUrl": "https://example.com/pirlo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "David Beckham",
+    "career": [
+      { "club": "Manchester United", "year": "1992-2003", "country": "England" },
+      { "club": "Real Madrid", "year": "2003-2007", "country": "Spanien" },
+      { "club": "LA Galaxy", "year": "2007-2012", "country": "USA" },
+      { "club": "AC Milan (lån)", "year": "2009, 2010", "country": "Italien" },
+      { "club": "Paris Saint-Germain", "year": "2013", "country": "Frankrike" }
+    ],
+    "photoUrl": "https://example.com/beckham.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ronaldinho",
+    "career": [
+      { "club": "Grêmio", "year": "1998-2001", "country": "Brasilien" },
+      { "club": "Paris Saint-Germain", "year": "2001-2003", "country": "Frankrike" },
+      { "club": "Barcelona", "year": "2003-2008", "country": "Spanien" },
+      { "club": "AC Milan", "year": "2008-2011", "country": "Italien" },
+      { "club": "Flamengo", "year": "2011-2012", "country": "Brasilien" },
+      { "club": "Atlético Mineiro", "year": "2012-2014", "country": "Brasilien" }
+    ],
+    "photoUrl": "https://example.com/ronaldinho.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kaká",
+    "career": [
+      { "club": "São Paulo", "year": "2001-2003", "country": "Brasilien" },
+      { "club": "AC Milan", "year": "2003-2009", "country": "Italien" },
+      { "club": "Real Madrid", "year": "2009-2013", "country": "Spanien" },
+      { "club": "AC Milan", "year": "2013-2014", "country": "Italien" },
+      { "club": "Orlando City", "year": "2014-2017", "country": "USA" }
+    ],
+    "photoUrl": "https://example.com/kaka.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Frank Lampard",
+    "career": [
+      { "club": "West Ham United", "year": "1995-2001", "country": "England" },
+      { "club": "Chelsea", "year": "2001-2014", "country": "England" },
+      { "club": "New York City FC", "year": "2014-2015", "country": "USA" },
+      { "club": "Manchester City (lån)", "year": "2014-2015", "country": "England" }
+    ],
+    "photoUrl": "https://example.com/lampard.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Steven Gerrard",
+    "career": [
+      { "club": "Liverpool", "year": "1998-2015", "country": "England" },
+      { "club": "LA Galaxy", "year": "2015-2016", "country": "USA" }
+    ],
+    "photoUrl": "https://example.com/gerrard.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Carlos Tevez",
+    "career": [
+      { "club": "Boca Juniors", "year": "2001-2004", "country": "Argentina" },
+      { "club": "Corinthians", "year": "2005-2006", "country": "Brasilien" },
+      { "club": "West Ham United", "year": "2006-2007", "country": "England" },
+      { "club": "Manchester United", "year": "2007-2009", "country": "England" },
+      { "club": "Manchester City", "year": "2009-2013", "country": "England" },
+      { "club": "Juventus", "year": "2013-2015", "country": "Italien" },
+      { "club": "Boca Juniors", "year": "2015-2021", "country": "Argentina" }
+    ],
+    "photoUrl": "https://example.com/tevez.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Xavi Hernández",
+    "career": [
+      { "club": "Barcelona", "year": "1998-2015", "country": "Spanien" },
+      { "club": "Al Sadd", "year": "2015-2019", "country": "Qatar" }
+    ],
+    "photoUrl": "https://example.com/xavi.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Andrés Iniesta",
+    "career": [
+      { "club": "Barcelona", "year": "2002-2018", "country": "Spanien" },
+      { "club": "Vissel Kobe", "year": "2018-2023", "country": "Japan" },
+      { "club": "Emirates Club", "year": "2023-", "country": "Förenade Arabemiraten" }
+    ],
+    "photoUrl": "https://example.com/iniesta.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Clarence Seedorf",
+    "career": [
+      { "club": "Ajax", "year": "1992-1995", "country": "Nederländerna" },
+      { "club": "Sampdoria", "year": "1995-1996", "country": "Italien" },
+      { "club": "Real Madrid", "year": "1996-1999", "country": "Spanien" },
+      { "club": "Inter Milan", "year": "1999-2002", "country": "Italien" },
+      { "club": "AC Milan", "year": "2002-2012", "country": "Italien" },
+      { "club": "Botafogo", "year": "2012-2014", "country": "Brasilien" }
+    ],
+    "photoUrl": "https://example.com/seedorf.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Roberto Carlos",
+    "career": [
+      { "club": "União São João", "year": "1991", "country": "Brasilien" },
+      { "club": "Palmeiras", "year": "1993-1995", "country": "Brasilien" },
+      { "club": "Inter Milan", "year": "1995-1996", "country": "Italien" },
+      { "club": "Real Madrid", "year": "1996-2007", "country": "Spanien" },
+      { "club": "Fenerbahçe", "year": "2007-2009", "country": "Turkiet" },
+      { "club": "Corinthians", "year": "2010-2012", "country": "Brasilien" }
+    ],
+    "photoUrl": "https://example.com/robertocarlos.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Paolo Maldini",
+    "career": [
+      { "club": "AC Milan", "year": "1984-2009", "country": "Italien" }
+    ],
+    "photoUrl": "https://example.com/maldini.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Francesco Totti",
+    "career": [
+      { "club": "AS Roma", "year": "1992-2017", "country": "Italien" }
+    ],
+    "photoUrl": "https://example.com/totti.jpg"
+  }
+]

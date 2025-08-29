@@ -2,95 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
+/* Football-inspired design system */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Football field green palette */
+    --football-green: 134 74% 20%;
+    --football-green-light: 134 60% 35%;
+    --football-green-dark: 134 80% 15%;
+    
+    /* Field lines and text */
+    --field-white: 0 0% 98%;
+    --field-cream: 48 100% 96%;
+    
+    /* Goal and accent colors */
+    --goal-gold: 43 100% 50%;
+    --goal-gold-light: 43 100% 65%;
+    
+    /* Match result colors */
+    --win-green: 120 100% 25%;
+    --lose-red: 0 84% 45%;
+    --neutral-gray: 220 10% 40%;
+    
+    /* Design system colors */
+    --background: var(--field-cream);
+    --foreground: var(--football-green-dark);
+    --card: var(--field-white);
+    --card-foreground: var(--football-green-dark);
+    --popover: var(--field-white);
+    --popover-foreground: var(--football-green-dark);
+    --primary: var(--football-green);
+    --primary-foreground: var(--field-white);
+    --secondary: var(--football-green-light);
+    --secondary-foreground: var(--field-white);
+    --muted: 134 30% 85%;
+    --muted-foreground: var(--neutral-gray);
+    --accent: var(--goal-gold);
+    --accent-foreground: var(--football-green-dark);
+    --destructive: var(--lose-red);
+    --destructive-foreground: var(--field-white);
+    --border: 134 30% 75%;
+    --input: var(--field-white);
+    --ring: var(--goal-gold);
+    --radius: 0.75rem;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Custom gradients */
+    --gradient-field: linear-gradient(135deg, hsl(var(--football-green-dark)), hsl(var(--football-green)));
+    --gradient-goal: linear-gradient(135deg, hsl(var(--goal-gold)), hsl(var(--goal-gold-light)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--field-white)), hsl(48 100% 98%));
+    
+    /* Shadows */
+    --shadow-field: 0 10px 30px -5px hsl(var(--football-green) / 0.3);
+    --shadow-goal: 0 8px 25px -8px hsl(var(--goal-gold) / 0.4);
+    --shadow-card: 0 4px 20px -4px hsl(var(--football-green) / 0.1);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --bounce-in: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: var(--field-white);
+    --sidebar-foreground: var(--football-green-dark);
+    --sidebar-primary: var(--football-green);
+    --sidebar-primary-foreground: var(--field-white);
+    --sidebar-accent: var(--muted);
+    --sidebar-accent-foreground: var(--football-green-dark);
+    --sidebar-border: var(--border);
+    --sidebar-ring: var(--goal-gold);
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --background: var(--football-green-dark);
+    --foreground: var(--field-white);
+    --card: var(--football-green);
+    --card-foreground: var(--field-white);
+    --popover: var(--football-green);
+    --popover-foreground: var(--field-white);
+    --primary: var(--goal-gold);
+    --primary-foreground: var(--football-green-dark);
+    --secondary: var(--football-green-light);
+    --secondary-foreground: var(--field-white);
+    --muted: var(--football-green-light);
+    --muted-foreground: 134 20% 70%;
+    --accent: var(--goal-gold-light);
+    --accent-foreground: var(--football-green-dark);
+    --border: var(--football-green-light);
+    --input: var(--football-green);
+    --ring: var(--goal-gold-light);
+    --sidebar-background: var(--football-green);
+    --sidebar-foreground: var(--field-white);
+    --sidebar-primary: var(--goal-gold);
+    --sidebar-primary-foreground: var(--football-green-dark);
+    --sidebar-accent: var(--football-green-light);
+    --sidebar-accent-foreground: var(--field-white);
+    --sidebar-border: var(--football-green-light);
+    --sidebar-ring: var(--goal-gold-light);
   }
 }
 
@@ -101,5 +105,49 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* Football field pattern background */
+  .field-pattern {
+    background-image: 
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 50px,
+        hsl(var(--field-white) / 0.1) 50px,
+        hsl(var(--field-white) / 0.1) 52px
+      );
+  }
+
+  /* Goal celebration animation */
+  .goal-celebration {
+    animation: goalBounce 0.6s var(--bounce-in);
+  }
+
+  @keyframes goalBounce {
+    0% { transform: scale(0.3) rotate(-5deg); opacity: 0; }
+    50% { transform: scale(1.1) rotate(2deg); opacity: 1; }
+    100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  }
+
+  /* Match result animations */
+  .result-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  @keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  /* Hover effects */
+  .hover-goal {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-goal:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-goal);
   }
 }

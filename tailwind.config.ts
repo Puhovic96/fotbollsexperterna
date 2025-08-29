@@ -61,7 +61,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Football theme colors
+				'football-green': {
+					DEFAULT: 'hsl(var(--football-green))',
+					light: 'hsl(var(--football-green-light))',
+					dark: 'hsl(var(--football-green-dark))'
+				},
+				'goal-gold': {
+					DEFAULT: 'hsl(var(--goal-gold))',
+					light: 'hsl(var(--goal-gold-light))'
+				},
+				'field-white': 'hsl(var(--field-white))',
+				'field-cream': 'hsl(var(--field-cream))',
+				'win-green': 'hsl(var(--win-green))',
+				'lose-red': 'hsl(var(--lose-red))'
+			},
+			backgroundImage: {
+				'gradient-field': 'var(--gradient-field)',
+				'gradient-goal': 'var(--gradient-goal)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'field': 'var(--shadow-field)',
+				'goal': 'var(--shadow-goal)',
+				'card-custom': 'var(--shadow-card)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
