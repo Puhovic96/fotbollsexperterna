@@ -21,7 +21,7 @@ const Index = () => {
             <div className="absolute inset-0 bg-gradient-field/80 flex items-center justify-center">
               <div className="text-center text-field-white px-4">
                 <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight">
-                  Football Fun Hub
+                  Fotbollsexperterna
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 text-field-white/90">
                   Testa dina fotbollskunskaper och ha kul!
@@ -152,7 +152,7 @@ const Index = () => {
         <section className="bg-gradient-field py-16 px-4">
           <div className="container mx-auto">
             <div className="text-center text-field-white">
-              <h2 className="text-4xl font-bold mb-12">Varför välja Football Fun Hub?</h2>
+              <h2 className="text-4xl font-bold mb-12">Varför välja Fotbollsexperterna?</h2>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 <div className="text-center">
