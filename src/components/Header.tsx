@@ -17,7 +17,7 @@ const Header = () => {
               <Trophy className="h-8 w-8 text-football-green-dark" />
             </div>
             <h1 className="text-3xl font-bold text-field-white tracking-tight">
-              Football Fun Hub
+              Fotbollsexperterna
             </h1>
           </Link>
 
