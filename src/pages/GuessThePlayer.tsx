@@ -12,6 +12,8 @@ interface CareerStep {
   club: string;
   year: string;
   country: string;
+  matches: number;
+  goals: number;
 }
 
 interface Player {
@@ -188,11 +190,15 @@ const GuessThePlayer = () => {
                   <div className="space-y-3">
                     {currentPlayer.career.slice(0, revealedSteps).map((step, index) => (
                       <div key={index} className="flex items-center justify-between p-3 bg-muted/30 rounded-lg">
-                        <div>
+                        <div className="flex-1">
                           <p className="font-semibold">{step.club}</p>
-                          <p className="text-sm text-muted-foreground">{step.country}</p>
+                          <p className="text-sm text-muted-foreground">{step.year}</p>
+                          <p className="text-xs text-muted-foreground">{step.country}</p>
                         </div>
-                        <Badge variant="outline">{step.year}</Badge>
+                        <div className="text-right">
+                          <p className="text-sm font-medium">{step.matches} matcher</p>
+                          <p className="text-sm font-medium">{step.goals} mål</p>
+                        </div>
                       </div>
                     ))}
                     {revealedSteps < currentPlayer.career.length && (
@@ -271,11 +277,15 @@ const GuessThePlayer = () => {
                     <div className="space-y-2 max-h-48 overflow-y-auto">
                       {currentPlayer.career.map((step, index) => (
                         <div key={index} className="flex items-center justify-between p-2 bg-muted/20 rounded text-sm">
-                          <div>
-                            <span className="font-medium">{step.club}</span>
-                            <span className="text-muted-foreground ml-2">({step.country})</span>
+                          <div className="flex-1">
+                            <div className="font-medium">{step.club}</div>
+                            <div className="text-muted-foreground">{step.year}</div>
+                            <div className="text-muted-foreground text-xs">({step.country})</div>
                           </div>
-                          <span className="text-muted-foreground">{step.year}</span>
+                          <div className="text-right">
+                            <div className="text-sm">{step.matches} matcher</div>
+                            <div className="text-sm">{step.goals} mål</div>
+                          </div>
                         </div>
                       ))}
                     </div>

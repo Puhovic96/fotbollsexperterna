@@ -3,16 +3,16 @@
     "id": 1,
     "name": "Zlatan Ibrahimović",
     "career": [
-      { "club": "Malmö FF", "year": "1999-2001", "country": "Sverige" },
-      { "club": "Ajax", "year": "2001-2004", "country": "Nederländerna" },
-      { "club": "Juventus", "year": "2004-2006", "country": "Italien" },
-      { "club": "Inter Milan", "year": "2006-2009", "country": "Italien" },
-      { "club": "Barcelona", "year": "2009-2010", "country": "Spanien" },
-      { "club": "AC Milan", "year": "2010-2012", "country": "Italien" },
-      { "club": "Paris Saint-Germain", "year": "2012-2016", "country": "Frankrike" },
-      { "club": "Manchester United", "year": "2016-2018", "country": "England" },
-      { "club": "LA Galaxy", "year": "2018-2019", "country": "USA" },
-      { "club": "AC Milan", "year": "2020-2023", "country": "Italien" }
+      { "club": "Malmö FF", "year": "1999-2001", "country": "Sverige", "matches": 40, "goals": 16 },
+      { "club": "Ajax", "year": "2001-2004", "country": "Nederländerna", "matches": 110, "goals": 35 },
+      { "club": "Juventus", "year": "2004-2006", "country": "Italien", "matches": 92, "goals": 26 },
+      { "club": "Inter Milan", "year": "2006-2009", "country": "Italien", "matches": 117, "goals": 66 },
+      { "club": "Barcelona", "year": "2009-2010", "country": "Spanien", "matches": 46, "goals": 22 },
+      { "club": "AC Milan", "year": "2010-2012", "country": "Italien", "matches": 85, "goals": 56 },
+      { "club": "Paris Saint-Germain", "year": "2012-2016", "country": "Frankrike", "matches": 180, "goals": 156 },
+      { "club": "Manchester United", "year": "2016-2018", "country": "England", "matches": 53, "goals": 29 },
+      { "club": "LA Galaxy", "year": "2018-2019", "country": "USA", "matches": 58, "goals": 53 },
+      { "club": "AC Milan", "year": "2020-2023", "country": "Italien", "matches": 75, "goals": 17 }
     ],
     "photoUrl": "https://example.com/zlatan.jpg"
   },
@@ -20,10 +20,10 @@
     "id": 2,
     "name": "Thierry Henry",
     "career": [
-      { "club": "AS Monaco", "year": "1994-1999", "country": "Frankrike" },
-      { "club": "Arsenal", "year": "1999-2007", "country": "England" },
-      { "club": "Barcelona", "year": "2007-2010", "country": "Spanien" },
-      { "club": "New York Red Bulls", "year": "2010-2014", "country": "USA" }
+      { "club": "AS Monaco", "year": "1994-1999", "country": "Frankrike", "matches": 105, "goals": 20 },
+      { "club": "Arsenal", "year": "1999-2007", "country": "England", "matches": 377, "goals": 228 },
+      { "club": "Barcelona", "year": "2007-2010", "country": "Spanien", "matches": 121, "goals": 49 },
+      { "club": "New York Red Bulls", "year": "2010-2014", "country": "USA", "matches": 122, "goals": 51 }
     ],
     "photoUrl": "https://example.com/henry.jpg"
   },
@@ -31,11 +31,11 @@
     "id": 3,
     "name": "Andrea Pirlo",
     "career": [
-      { "club": "Brescia", "year": "1995-1998", "country": "Italien" },
-      { "club": "Inter Milan", "year": "1998-2001", "country": "Italien" },
-      { "club": "AC Milan", "year": "2001-2011", "country": "Italien" },
-      { "club": "Juventus", "year": "2011-2014", "country": "Italien" },
-      { "club": "New York City FC", "year": "2014-2015", "country": "USA" }
+      { "club": "Brescia", "year": "1995-1998", "country": "Italien", "matches": 57, "goals": 2 },
+      { "club": "Inter Milan", "year": "1998-2001", "country": "Italien", "matches": 62, "goals": 3 },
+      { "club": "AC Milan", "year": "2001-2011", "country": "Italien", "matches": 401, "goals": 41 },
+      { "club": "Juventus", "year": "2011-2014", "country": "Italien", "matches": 119, "goals": 19 },
+      { "club": "New York City FC", "year": "2014-2015", "country": "USA", "matches": 62, "goals": 1 }
     ],
     "photoUrl": "https://example.com/pirlo.jpg"
   },
@@ -43,11 +43,11 @@
     "id": 4,
     "name": "David Beckham",
     "career": [
-      { "club": "Manchester United", "year": "1992-2003", "country": "England" },
-      { "club": "Real Madrid", "year": "2003-2007", "country": "Spanien" },
-      { "club": "LA Galaxy", "year": "2007-2012", "country": "USA" },
-      { "club": "AC Milan (lån)", "year": "2009, 2010", "country": "Italien" },
-      { "club": "Paris Saint-Germain", "year": "2013", "country": "Frankrike" }
+      { "club": "Manchester United", "year": "1992-2003", "country": "England", "matches": 394, "goals": 85 },
+      { "club": "Real Madrid", "year": "2003-2007", "country": "Spanien", "matches": 159, "goals": 13 },
+      { "club": "LA Galaxy", "year": "2007-2012", "country": "USA", "matches": 118, "goals": 18 },
+      { "club": "AC Milan (lån)", "year": "2009, 2010", "country": "Italien", "matches": 29, "goals": 2 },
+      { "club": "Paris Saint-Germain", "year": "2013", "country": "Frankrike", "matches": 14, "goals": 0 }
     ],
     "photoUrl": "https://example.com/beckham.jpg"
   },
@@ -55,12 +55,12 @@
     "id": 5,
     "name": "Ronaldinho",
     "career": [
-      { "club": "Grêmio", "year": "1998-2001", "country": "Brasilien" },
-      { "club": "Paris Saint-Germain", "year": "2001-2003", "country": "Frankrike" },
-      { "club": "Barcelona", "year": "2003-2008", "country": "Spanien" },
-      { "club": "AC Milan", "year": "2008-2011", "country": "Italien" },
-      { "club": "Flamengo", "year": "2011-2012", "country": "Brasilien" },
-      { "club": "Atlético Mineiro", "year": "2012-2014", "country": "Brasilien" }
+      { "club": "Grêmio", "year": "1998-2001", "country": "Brasilien", "matches": 89, "goals": 23 },
+      { "club": "Paris Saint-Germain", "year": "2001-2003", "country": "Frankrike", "matches": 86, "goals": 25 },
+      { "club": "Barcelona", "year": "2003-2008", "country": "Spanien", "matches": 207, "goals": 94 },
+      { "club": "AC Milan", "year": "2008-2011", "country": "Italien", "matches": 95, "goals": 26 },
+      { "club": "Flamengo", "year": "2011-2012", "country": "Brasilien", "matches": 71, "goals": 28 },
+      { "club": "Atlético Mineiro", "year": "2012-2014", "country": "Brasilien", "matches": 75, "goals": 28 }
     ],
     "photoUrl": "https://example.com/ronaldinho.jpg"
   },
@@ -68,11 +68,11 @@
     "id": 6,
     "name": "Kaká",
     "career": [
-      { "club": "São Paulo", "year": "2001-2003", "country": "Brasilien" },
-      { "club": "AC Milan", "year": "2003-2009", "country": "Italien" },
-      { "club": "Real Madrid", "year": "2009-2013", "country": "Spanien" },
-      { "club": "AC Milan", "year": "2013-2014", "country": "Italien" },
-      { "club": "Orlando City", "year": "2014-2017", "country": "USA" }
+      { "club": "São Paulo", "year": "2001-2003", "country": "Brasilien", "matches": 58, "goals": 12 },
+      { "club": "AC Milan", "year": "2003-2009", "country": "Italien", "matches": 270, "goals": 95 },
+      { "club": "Real Madrid", "year": "2009-2013", "country": "Spanien", "matches": 120, "goals": 29 },
+      { "club": "AC Milan", "year": "2013-2014", "country": "Italien", "matches": 30, "goals": 7 },
+      { "club": "Orlando City", "year": "2014-2017", "country": "USA", "matches": 75, "goals": 24 }
     ],
     "photoUrl": "https://example.com/kaka.jpg"
   },
@@ -80,10 +80,10 @@
     "id": 7,
     "name": "Frank Lampard",
     "career": [
-      { "club": "West Ham United", "year": "1995-2001", "country": "England" },
-      { "club": "Chelsea", "year": "2001-2014", "country": "England" },
-      { "club": "New York City FC", "year": "2014-2015", "country": "USA" },
-      { "club": "Manchester City (lån)", "year": "2014-2015", "country": "England" }
+      { "club": "West Ham United", "year": "1995-2001", "country": "England", "matches": 186, "goals": 38 },
+      { "club": "Chelsea", "year": "2001-2014", "country": "England", "matches": 648, "goals": 211 },
+      { "club": "New York City FC", "year": "2014-2015", "country": "USA", "matches": 29, "goals": 15 },
+      { "club": "Manchester City (lån)", "year": "2014-2015", "country": "England", "matches": 32, "goals": 6 }
     ],
     "photoUrl": "https://example.com/lampard.jpg"
   },
@@ -91,8 +91,8 @@
     "id": 8,
     "name": "Steven Gerrard",
     "career": [
-      { "club": "Liverpool", "year": "1998-2015", "country": "England" },
-      { "club": "LA Galaxy", "year": "2015-2016", "country": "USA" }
+      { "club": "Liverpool", "year": "1998-2015", "country": "England", "matches": 710, "goals": 186 },
+      { "club": "LA Galaxy", "year": "2015-2016", "country": "USA", "matches": 34, "goals": 5 }
     ],
     "photoUrl": "https://example.com/gerrard.jpg"
   },
@@ -100,13 +100,13 @@
     "id": 9,
     "name": "Carlos Tevez",
     "career": [
-      { "club": "Boca Juniors", "year": "2001-2004", "country": "Argentina" },
-      { "club": "Corinthians", "year": "2005-2006", "country": "Brasilien" },
-      { "club": "West Ham United", "year": "2006-2007", "country": "England" },
-      { "club": "Manchester United", "year": "2007-2009", "country": "England" },
-      { "club": "Manchester City", "year": "2009-2013", "country": "England" },
-      { "club": "Juventus", "year": "2013-2015", "country": "Italien" },
-      { "club": "Boca Juniors", "year": "2015-2021", "country": "Argentina" }
+      { "club": "Boca Juniors", "year": "2001-2004", "country": "Argentina", "matches": 76, "goals": 26 },
+      { "club": "Corinthians", "year": "2005-2006", "country": "Brasilien", "matches": 46, "goals": 25 },
+      { "club": "West Ham United", "year": "2006-2007", "country": "England", "matches": 29, "goals": 7 },
+      { "club": "Manchester United", "year": "2007-2009", "country": "England", "matches": 99, "goals": 34 },
+      { "club": "Manchester City", "year": "2009-2013", "country": "England", "matches": 148, "goals": 73 },
+      { "club": "Juventus", "year": "2013-2015", "country": "Italien", "matches": 96, "goals": 50 },
+      { "club": "Boca Juniors", "year": "2015-2021", "country": "Argentina", "matches": 279, "goals": 153 }
     ],
     "photoUrl": "https://example.com/tevez.jpg"
   },
@@ -114,8 +114,8 @@
     "id": 10,
     "name": "Xavi Hernández",
     "career": [
-      { "club": "Barcelona", "year": "1998-2015", "country": "Spanien" },
-      { "club": "Al Sadd", "year": "2015-2019", "country": "Qatar" }
+      { "club": "Barcelona", "year": "1998-2015", "country": "Spanien", "matches": 767, "goals": 85 },
+      { "club": "Al Sadd", "year": "2015-2019", "country": "Qatar", "matches": 85, "goals": 12 }
     ],
     "photoUrl": "https://example.com/xavi.jpg"
   },
@@ -123,9 +123,9 @@
     "id": 11,
     "name": "Andrés Iniesta",
     "career": [
-      { "club": "Barcelona", "year": "2002-2018", "country": "Spanien" },
-      { "club": "Vissel Kobe", "year": "2018-2023", "country": "Japan" },
-      { "club": "Emirates Club", "year": "2023-", "country": "Förenade Arabemiraten" }
+      { "club": "Barcelona", "year": "2002-2018", "country": "Spanien", "matches": 674, "goals": 57 },
+      { "club": "Vissel Kobe", "year": "2018-2023", "country": "Japan", "matches": 134, "goals": 28 },
+      { "club": "Emirates Club", "year": "2023-", "country": "Förenade Arabemiraten", "matches": 25, "goals": 3 }
     ],
     "photoUrl": "https://example.com/iniesta.jpg"
   },
@@ -133,12 +133,12 @@
     "id": 12,
     "name": "Clarence Seedorf",
     "career": [
-      { "club": "Ajax", "year": "1992-1995", "country": "Nederländerna" },
-      { "club": "Sampdoria", "year": "1995-1996", "country": "Italien" },
-      { "club": "Real Madrid", "year": "1996-1999", "country": "Spanien" },
-      { "club": "Inter Milan", "year": "1999-2002", "country": "Italien" },
-      { "club": "AC Milan", "year": "2002-2012", "country": "Italien" },
-      { "club": "Botafogo", "year": "2012-2014", "country": "Brasilien" }
+      { "club": "Ajax", "year": "1992-1995", "country": "Nederländerna", "matches": 98, "goals": 11 },
+      { "club": "Sampdoria", "year": "1995-1996", "country": "Italien", "matches": 38, "goals": 3 },
+      { "club": "Real Madrid", "year": "1996-1999", "country": "Spanien", "matches": 162, "goals": 20 },
+      { "club": "Inter Milan", "year": "1999-2002", "country": "Italien", "matches": 125, "goals": 18 },
+      { "club": "AC Milan", "year": "2002-2012", "country": "Italien", "matches": 432, "goals": 62 },
+      { "club": "Botafogo", "year": "2012-2014", "country": "Brasilien", "matches": 54, "goals": 8 }
     ],
     "photoUrl": "https://example.com/seedorf.jpg"
   },
@@ -146,12 +146,12 @@
     "id": 13,
     "name": "Roberto Carlos",
     "career": [
-      { "club": "União São João", "year": "1991", "country": "Brasilien" },
-      { "club": "Palmeiras", "year": "1993-1995", "country": "Brasilien" },
-      { "club": "Inter Milan", "year": "1995-1996", "country": "Italien" },
-      { "club": "Real Madrid", "year": "1996-2007", "country": "Spanien" },
-      { "club": "Fenerbahçe", "year": "2007-2009", "country": "Turkiet" },
-      { "club": "Corinthians", "year": "2010-2012", "country": "Brasilien" }
+      { "club": "União São João", "year": "1991", "country": "Brasilien", "matches": 15, "goals": 2 },
+      { "club": "Palmeiras", "year": "1993-1995", "country": "Brasilien", "matches": 99, "goals": 15 },
+      { "club": "Inter Milan", "year": "1995-1996", "country": "Italien", "matches": 37, "goals": 6 },
+      { "club": "Real Madrid", "year": "1996-2007", "country": "Spanien", "matches": 584, "goals": 71 },
+      { "club": "Fenerbahçe", "year": "2007-2009", "country": "Turkiet", "matches": 73, "goals": 8 },
+      { "club": "Corinthians", "year": "2010-2012", "country": "Brasilien", "matches": 68, "goals": 5 }
     ],
     "photoUrl": "https://example.com/robertocarlos.jpg"
   },
@@ -159,7 +159,7 @@
     "id": 14,
     "name": "Paolo Maldini",
     "career": [
-      { "club": "AC Milan", "year": "1984-2009", "country": "Italien" }
+      { "club": "AC Milan", "year": "1984-2009", "country": "Italien", "matches": 902, "goals": 33 }
     ],
     "photoUrl": "https://example.com/maldini.jpg"
   },
@@ -167,7 +167,7 @@
     "id": 15,
     "name": "Francesco Totti",
     "career": [
-      { "club": "AS Roma", "year": "1992-2017", "country": "Italien" }
+      { "club": "AS Roma", "year": "1992-2017", "country": "Italien", "matches": 786, "goals": 307 }
     ],
     "photoUrl": "https://example.com/totti.jpg"
   }
