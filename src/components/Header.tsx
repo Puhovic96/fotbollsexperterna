@@ -1,6 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Trophy, Target, HelpCircle } from "lucide-react";
+import { Trophy, Target, HelpCircle, Menu } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Header = () => {
   const location = useLocation();
@@ -10,9 +16,44 @@ const Header = () => {
   return (
     <header className="bg-gradient-field border-b-4 border-goal-gold shadow-field">
       <div className="container mx-auto px-4 py-6">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
+        <div className="flex items-center justify-between gap-4">
+          {/* Menu Button */}
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="field" size="icon" className="hover-goal">
+                <Menu className="h-5 w-5" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-56">
+              <DropdownMenuItem asChild>
+                <Link to="/" className="flex items-center gap-2 w-full">
+                  <Trophy className="h-4 w-4" />
+                  Hem
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/quiz" className="flex items-center gap-2 w-full">
+                  <HelpCircle className="h-4 w-4" />
+                  Quiz
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/guess-the-player" className="flex items-center gap-2 w-full">
+                  <Target className="h-4 w-4" />
+                  Gissa Spelaren
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/who-am-i" className="flex items-center gap-2 w-full">
+                  <HelpCircle className="h-4 w-4" />
+                  Vem är jag?
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          {/* Centered Logo */}
+          <Link to="/" className="flex items-center gap-3 group absolute left-1/2 transform -translate-x-1/2">
             <div className="bg-goal-gold p-3 rounded-full shadow-goal group-hover:scale-110 transition-transform duration-300">
               <Trophy className="h-8 w-8 text-football-green-dark" />
             </div>
@@ -21,48 +62,8 @@ const Header = () => {
             </h1>
           </Link>
 
-          {/* Navigation */}
-          <nav className="flex flex-wrap items-center gap-2">
-            <Link to="/">
-              <Button
-                variant={isActive("/") ? "goal" : "field"}
-                size="default"
-                className="hover-goal"
-              >
-                Hem
-              </Button>
-            </Link>
-            <Link to="/quiz">
-              <Button
-                variant={isActive("/quiz") ? "goal" : "field"}
-                size="default"
-                className="hover-goal"
-              >
-                <HelpCircle className="h-4 w-4" />
-                Quiz
-              </Button>
-            </Link>
-            <Link to="/guess-the-player">
-              <Button
-                variant={isActive("/guess-the-player") ? "goal" : "field"}
-                size="default"
-                className="hover-goal"
-              >
-                <Target className="h-4 w-4" />
-                Gissa Spelaren
-              </Button>
-            </Link>
-            <Link to="/who-am-i">
-              <Button
-                variant={isActive("/who-am-i") ? "goal" : "field"}
-                size="default"
-                className="hover-goal"
-              >
-                <HelpCircle className="h-4 w-4" />
-                Vem är jag?
-              </Button>
-            </Link>
-          </nav>
+          {/* Empty space for balance */}
+          <div className="w-10"></div>
         </div>
       </div>
     </header>

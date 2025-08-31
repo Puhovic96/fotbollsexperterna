@@ -26,20 +26,6 @@ const Index = () => {
                 <p className="text-xl md:text-2xl mb-8 text-field-white/90">
                   Testa dina fotbollskunskaper och ha kul!
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Link to="/quiz">
-                    <Button variant="hero" size="hero" className="goal-celebration">
-                      <Trophy className="h-6 w-6" />
-                      Starta Quiz
-                    </Button>
-                  </Link>
-                  <Link to="/guess-the-player">
-                    <Button variant="goal" size="hero" className="goal-celebration">
-                      <Target className="h-6 w-6" />
-                      Gissa Spelaren
-                    </Button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
