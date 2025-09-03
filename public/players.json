@@ -174,44 +174,42 @@
 
   {
     "id": 16,
-    "name":"Rui Costa",
+    "name": "Rui Costa",
     "career": [
-      {"club": "Benfica", "year": "1990–1994 ", "country": "Portugal", "matches": 78, "goals": 13 },
-      {"club": "Fafe (lån)" , "year": "1990-1991" , "country": "Portugal" , "matches": 38 , "goals": 6 },
-      {"club": "Fiorentina" , "year": "1994-2001", "country": "Italien" , "matches": 215 , "goals": 38 }.
-      {"club": "Milan" , "year": "2001–2006" , "country": "Italien" , "matches": 124 , "goals": 4 },
-      {"club": "Benfica" , "year": "2006–2008" , "country": "Portugal" , "matches": 43 , "goals": 5 }
-
-    ]
-  }
+      {"club": "Benfica", "year": "1990–1994", "country": "Portugal", "matches": 78, "goals": 13 },
+      {"club": "Fafe (lån)", "year": "1990-1991", "country": "Portugal", "matches": 38, "goals": 6 },
+      {"club": "Fiorentina", "year": "1994-2001", "country": "Italien", "matches": 215, "goals": 38 },
+      {"club": "Milan", "year": "2001–2006", "country": "Italien", "matches": 124, "goals": 4 },
+      {"club": "Benfica", "year": "2006–2008", "country": "Portugal", "matches": 43, "goals": 5 }
+    ],
+    "photoUrl": "https://example.com/ruicosta.jpg"
+  },
   {
     "id": 17,
-    "name":"Jay-Jay Okocha ",
+    "name": "Jay-Jay Okocha",
     "career": [
-      {"club":"Borussia Neunkirchen" , "year":"1990–1992" , "country":"Tyskland"  , "matches": 35 , "goals": 7 },
-      {"club": "Eintracht Frankfurt" , "year":"1992–1996" , "country": "Tyskland" , "matches": 90 , "goals": 18 },
-      {"club": "Fenerbahçe", "year": "1996–1998", "country": "Turkiet"  , "matches": 62  , "goals": 30 },
-      {"club": "Paris Saint-Germain" , "year": "1998–2002" , "country": "Frankrike"  , "matches": 84 , "goals": 12 },
-      {"club": "Bolton Wanderers", "year": "2002–2006" , "country": "England" , "matches": 124 , "goals": 14 },
-      {"club": "Qatar SC" , "year": "2006–2007" , "country": "Qatar" , "matches": 41 , "goals": 6 },
-      {"club": "Hull City", "year": "2007–2008", "country": "England" , "matches": 18  , "goals": 0 }
-    ]
-
-  }
+      {"club": "Borussia Neunkirchen", "year": "1990–1992", "country": "Tyskland", "matches": 35, "goals": 7 },
+      {"club": "Eintracht Frankfurt", "year": "1992–1996", "country": "Tyskland", "matches": 90, "goals": 18 },
+      {"club": "Fenerbahçe", "year": "1996–1998", "country": "Turkiet", "matches": 62, "goals": 30 },
+      {"club": "Paris Saint-Germain", "year": "1998–2002", "country": "Frankrike", "matches": 84, "goals": 12 },
+      {"club": "Bolton Wanderers", "year": "2002–2006", "country": "England", "matches": 124, "goals": 14 },
+      {"club": "Qatar SC", "year": "2006–2007", "country": "Qatar", "matches": 41, "goals": 6 },
+      {"club": "Hull City", "year": "2007–2008", "country": "England", "matches": 18, "goals": 0 }
+    ],
+    "photoUrl": "https://example.com/okocha.jpg"
+  },
   {
     "id": 18,
-    "name":"Gennaro Gattuso",
+    "name": "Gennaro Gattuso",
     "career": [
-      {"club": "Perugia" ,    "year": "1995–1997" , "country": "Italien" ,   "matches": 10 ,  "goals": 0 },
-      {"club": "Rangers",     "year": "1997–1998",  "country": "Skottland" , "matches": 34 ,  "goals": 3 },
-      {"club": "Salernitana", "year": "1998–1999" , "country": "Italien" ,   "matches": 25 ,  "goals": 0 },
-      {"club": "AC Milan",    "year": "1999–2012" , "country": "Italien" ,   "matches": 335 , "goals": 9 },
-      {"club": "Sion",        "year": "2012-2013",  "country": "Schweiz" ,   "matches": 27 ,  "goals": 1 }
-    ]
-
-
-  }
-  {
+      {"club": "Perugia", "year": "1995–1997", "country": "Italien", "matches": 10, "goals": 0 },
+      {"club": "Rangers", "year": "1997–1998", "country": "Skottland", "matches": 34, "goals": 3 },
+      {"club": "Salernitana", "year": "1998–1999", "country": "Italien", "matches": 25, "goals": 0 },
+      {"club": "AC Milan", "year": "1999–2012", "country": "Italien", "matches": 335, "goals": 9 },
+      {"club": "Sion", "year": "2012-2013", "country": "Schweiz", "matches": 27, "goals": 1 }
+    ],
+    "photoUrl": "https://example.com/gattuso.jpg"
+  },
   {
     "id": 19,
     "name": "Diego Forlán",
@@ -266,9 +264,51 @@
       { "club": "Universidad de Chile",  "year": "2003",          "country": "Chile",      "matches": 13, "goals": 5 },
       { "club": "Estudiantes La Plata",  "year": "2003–2004",     "country": "Argentina",  "matches": 2,  "goals": 0 },
       { "club": "Cortuluá",              "year": "2004",          "country": "Colombia",   "matches": 1,  "goals": 0 }
-    ]
+    ],
+    "photoUrl": "https://example.com/forlan.jpg"
   },
-
+  {
+    "id": 20,
+    "name": "Alessandro Diamanti",
+    "career": [
+      { "club": "Prato", "year": "1999–2004", "country": "Italien", "matches": 89, "goals": 15 },
+      { "club": "Empoli (lån)", "year": "2000–2001", "country": "Italien", "matches": 12, "goals": 3 },
+      { "club": "Fucecchio (lån)", "year": "2001–2002", "country": "Italien", "matches": 28, "goals": 8 },
+      { "club": "AlbinoLeffe", "year": "2004–2006", "country": "Italien", "matches": 67, "goals": 12 },
+      { "club": "Livorno", "year": "2007–2009", "country": "Italien", "matches": 65, "goals": 34 },
+      { "club": "West Ham United", "year": "2009–2010", "country": "England", "matches": 27, "goals": 7 },
+      { "club": "Brescia", "year": "2010–2011", "country": "Italien", "matches": 32, "goals": 6 },
+      { "club": "Bologna", "year": "2011–2014", "country": "Italien", "matches": 88, "goals": 23 },
+      { "club": "Guangzhou Evergrande", "year": "2014", "country": "Kina", "matches": 15, "goals": 4 },
+      { "club": "Fiorentina (lån)", "year": "2014–2015", "country": "Italien", "matches": 11, "goals": 2 },
+      { "club": "Watford (lån)", "year": "2015–2016", "country": "England", "matches": 3, "goals": 0 },
+      { "club": "Atalanta (lån)", "year": "2016", "country": "Italien", "matches": 16, "goals": 1 },
+      { "club": "Palermo", "year": "2016–2017", "country": "Italien", "matches": 32, "goals": 1 },
+      { "club": "Perugia", "year": "2017–2018", "country": "Italien", "matches": 14, "goals": 2 },
+      { "club": "Livorno", "year": "2018–2019", "country": "Italien", "matches": 28, "goals": 5 },
+      { "club": "Western United", "year": "2019–2023", "country": "Australien", "matches": 82, "goals": 11 }
+    ],
+    "photoUrl": "https://example.com/diamanti.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Tino Asprilla",
+    "career": [
+      { "club": "Cúcuta Deportivo", "year": "1988–1989", "country": "Colombia", "matches": 36, "goals": 17 },
+      { "club": "Atlético Nacional", "year": "1989–1992", "country": "Colombia", "matches": 75, "goals": 32 },
+      { "club": "Parma", "year": "1992–1996", "country": "Italien", "matches": 84, "goals": 25 },
+      { "club": "Newcastle United", "year": "1996–1998", "country": "England", "matches": 48, "goals": 9 },
+      { "club": "Parma", "year": "1998–1999", "country": "Italien", "matches": 12, "goals": 1 },
+      { "club": "Palmeiras", "year": "1999–2000", "country": "Brasilien", "matches": 12, "goals": 2 },
+      { "club": "Fluminense", "year": "2000–2001", "country": "Brasilien", "matches": 12, "goals": 8 },
+      { "club": "Atlante", "year": "2001–2002", "country": "Mexiko", "matches": 12, "goals": 3 },
+      { "club": "Atlético Nacional", "year": "2002", "country": "Colombia", "matches": 11, "goals": 3 },
+      { "club": "Universidad de Chile", "year": "2003", "country": "Chile", "matches": 13, "goals": 5 },
+      { "club": "Estudiantes La Plata", "year": "2003–2004", "country": "Argentina", "matches": 2, "goals": 0 },
+      { "club": "Cortuluá", "year": "2004", "country": "Colombia", "matches": 1, "goals": 0 }
+    ],
+    "photoUrl": "https://example.com/asprilla.jpg"
+  },
   {
     "id": 22,
     "name": "Hidetoshi Nakata",
@@ -280,9 +320,9 @@
       { "club": "Bologna (loan)",     "year": "2003–2004", "country": "Italien",  "matches": 17, "goals": 2 },
       { "club": "Fiorentina",         "year": "2004–2005", "country": "Italien",  "matches": 20, "goals": 0 },
       { "club": "Bolton Wanderers",   "year": "2005–2006", "country": "England",  "matches": 21, "goals": 1 }
-    ]
+    ],
+    "photoUrl": "https://example.com/nakata.jpg"
   },
-
   {
     "id": 23,
     "name": "Tomas Brolin",
@@ -296,9 +336,9 @@
       { "club": "Parma (lån)",         "year": "1997",        "country": "Italien",     "matches": 11, "goals": 0 },
       { "club": "Crystal Palace",      "year": "1998",        "country": "England",     "matches": 13, "goals": 0 },
       { "club": "Hudiksvalls ABK",     "year": "1998",        "country": "Sverige",     "matches": 1,  "goals": 0 }
-    ]
+    ],
+    "photoUrl": "https://example.com/brolin.jpg"
   },
-
   {
     "id": 24,
     "name": "Mário Jardel",
@@ -321,9 +361,9 @@
       { "club": "Flamengo (PI)",           "year": "2010",        "country": "Brasilien",   "matches": 16,  "goals": 12 },
       { "club": "Cherno More",             "year": "2010–2011",   "country": "Bulgarien",   "matches": 8,   "goals": 1 },
       { "club": "Rio Negro-AM",            "year": "2011",        "country": "Brasilien",   "matches": 0,   "goals": 0 }
-    ]
+    ],
+    "photoUrl": "https://example.com/jardel.jpg"
   },
-
   {
     "id": 25,
     "name": "Antonio Cassano",
@@ -336,9 +376,9 @@
       { "club": "Inter Milan",     "year": "2012–2013",   "country": "Italien",    "matches": 28,  "goals": 7 },
       { "club": "Parma",           "year": "2013–2015",   "country": "Italien",    "matches": 53,  "goals": 17 },
       { "club": "Sampdoria",       "year": "2015–2017",   "country": "Italien",    "matches": 24,  "goals": 2 }
-    ]
+    ],
+    "photoUrl": "https://example.com/cassano.jpg"
   },
-
   {
     "id": 26,
     "name": "Iván Zamorano",
@@ -351,72 +391,61 @@
       { "club": "Inter Milan",  "year": "1996–2001", "country": "Italien",  "matches": 101, "goals": 25 },
       { "club": "Club América", "year": "2001–2003", "country": "Mexiko",   "matches": 63,  "goals": 33 },
       { "club": "Colo-Colo",    "year": "2003",      "country": "Chile",    "matches": 14,  "goals": 8 }
-    ]
+    ],
+    "photoUrl": "https://example.com/zamorano.jpg"
   },
-
   {
     "id": 27,
-    "name":"Taribo West",
+    "name": "Taribo West",
     "career": [
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-    ]
-
-
-  }
+      {"club": "Enugu Rangers", "year": "1989–1993", "country": "Nigeria", "matches": 89, "goals": 12 },
+      {"club": "Julius Berger", "year": "1993–1994", "country": "Nigeria", "matches": 25, "goals": 3 },
+      {"club": "Auxerre", "year": "1994–1997", "country": "Frankrike", "matches": 76, "goals": 7 },
+      {"club": "Inter Milan", "year": "1997–1999", "country": "Italien", "matches": 66, "goals": 2 },
+      {"club": "AC Milan", "year": "1999–2000", "country": "Italien", "matches": 18, "goals": 1 },
+      {"club": "Derby County", "year": "2000–2002", "country": "England", "matches": 45, "goals": 3 },
+      {"club": "1. FC Kaiserslautern", "year": "2002–2004", "country": "Tyskland", "matches": 38, "goals": 2 },
+      {"club": "Paykan", "year": "2004–2005", "country": "Iran", "matches": 22, "goals": 1 }
+    ],
+    "photoUrl": "https://example.com/taribowest.jpg"
+  },
   {
     "id": 28,
-    "name":"Pavel Nedvěd",
+    "name": "Pavel Nedvěd",
     "career": [
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-    ]
-
-
-  }
+      {"club": "Dukla Prague", "year": "1991–1992", "country": "Tjeckien", "matches": 9, "goals": 0 },
+      {"club": "Sparta Prague", "year": "1992–1996", "country": "Tjeckien", "matches": 125, "goals": 36 },
+      {"club": "Lazio", "year": "1996–2001", "country": "Italien", "matches": 153, "goals": 38 },
+      {"club": "Juventus", "year": "2001–2009", "country": "Italien", "matches": 287, "goals": 65 }
+    ],
+    "photoUrl": "https://example.com/nedved.jpg"
+  },
   {
     "id": 29,
-    "name":"Paolo Montero",
+    "name": "Paolo Montero",
     "career": [
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-    ]
-
-
-  }
+      {"club": "Peñarol", "year": "1989–1992", "country": "Uruguay", "matches": 78, "goals": 5 },
+      {"club": "Atalanta", "year": "1992–1996", "country": "Italien", "matches": 95, "goals": 8 },
+      {"club": "Juventus", "year": "1996–2005", "country": "Italien", "matches": 281, "goals": 8 },
+      {"club": "San Lorenzo", "year": "2005–2007", "country": "Argentina", "matches": 42, "goals": 2 },
+      {"club": "Peñarol", "year": "2007–2009", "country": "Uruguay", "matches": 35, "goals": 1 }
+    ],
+    "photoUrl": "https://example.com/montero.jpg"
+  },
   {
     "id": 30,
-    "name":"Juan Sebastián Verón",
+    "name": "Juan Sebastián Verón",
     "career": [
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-      {"club": , "year": , "country":  , "matches":  , "goals":  }
-    ]
-
-
+      {"club": "Estudiantes", "year": "1993–1996", "country": "Argentina", "matches": 66, "goals": 7 },
+      {"club": "Boca Juniors", "year": "1996–1998", "country": "Argentina", "matches": 75, "goals": 9 },
+      {"club": "Sampdoria", "year": "1998–1999", "country": "Italien", "matches": 31, "goals": 6 },
+      {"club": "Parma", "year": "1999–2001", "country": "Italien", "matches": 62, "goals": 12 },
+      {"club": "Lazio", "year": "2001–2002", "country": "Italien", "matches": 23, "goals": 3 },
+      {"club": "Manchester United", "year": "2001–2003", "country": "England", "matches": 51, "goals": 7 },
+      {"club": "Chelsea", "year": "2003–2006", "country": "England", "matches": 14, "goals": 1 },
+      {"club": "Estudiantes", "year": "2006–2014", "country": "Argentina", "matches": 245, "goals": 23 }
+    ],
+    "photoUrl": "https://example.com/veron.jpg"
   }
 ]
 
