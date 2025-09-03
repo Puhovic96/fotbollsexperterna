@@ -26,6 +26,7 @@ interface Player {
 const GuessThePlayer = () => {
   const [players, setPlayers] = useState<Player[]>([]);
   const [currentPlayer, setCurrentPlayer] = useState<Player | null>(null);
+  const [lastPlayerId, setLastPlayerId] = useState<number | null>(null);
   const [revealedSteps, setRevealedSteps] = useState(0);
   const [guess, setGuess] = useState("");
   const [gameState, setGameState] = useState<'menu' | 'playing' | 'won' | 'lost'>('menu');
@@ -41,8 +42,13 @@ const GuessThePlayer = () => {
   const startNewGame = () => {
     if (players.length === 0) return;
     
-    const randomPlayer = players[Math.floor(Math.random() * players.length)];
+    let randomPlayer;
+    do {
+      randomPlayer = players[Math.floor(Math.random() * players.length)];
+    } while (players.length > 1 && randomPlayer.id === lastPlayerId);
+    
     setCurrentPlayer(randomPlayer);
+    setLastPlayerId(randomPlayer.id);
     setRevealedSteps(1);
     setGuess("");
     setGameState('playing');
@@ -101,6 +107,7 @@ const GuessThePlayer = () => {
 
   const resetGame = () => {
     setCurrentPlayer(null);
+    setLastPlayerId(null);
     setRevealedSteps(0);
     setGuess("");
     setGameState('menu');
