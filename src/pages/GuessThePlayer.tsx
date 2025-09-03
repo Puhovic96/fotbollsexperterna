@@ -29,8 +29,6 @@ const GuessThePlayer = () => {
   const [revealedSteps, setRevealedSteps] = useState(0);
   const [guess, setGuess] = useState("");
   const [gameState, setGameState] = useState<'menu' | 'playing' | 'won' | 'lost'>('menu');
-  const [score, setScore] = useState(0);
-  const [gamesPlayed, setGamesPlayed] = useState(0);
   const { toast } = useToast();
 
   useEffect(() => {
@@ -74,10 +72,10 @@ const GuessThePlayer = () => {
       variation.includes(userGuess) || userGuess.includes(variation)
     )) {
       setGameState('won');
-      setScore(prev => prev + Math.max(1, currentPlayer.career.length - revealedSteps + 1));
-      setGamesPlayed(prev => prev + 1);
+      const successMessages = ["Bra jobbat!", "Grymt! ;)"];
+      const randomMessage = successMessages[Math.floor(Math.random() * successMessages.length)];
       toast({
-        title: "Rätt! 🎉",
+        title: randomMessage,
         description: `Det var ${currentPlayer.name}!`,
         className: "border-win-green"
       });
@@ -92,7 +90,6 @@ const GuessThePlayer = () => {
         });
       } else {
         setGameState('lost');
-        setGamesPlayed(prev => prev + 1);
         toast({
           title: "Spelet över 😞",
           description: `Det var ${currentPlayer.name}!`,
@@ -107,8 +104,6 @@ const GuessThePlayer = () => {
     setRevealedSteps(0);
     setGuess("");
     setGameState('menu');
-    setScore(0);
-    setGamesPlayed(0);
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -172,10 +167,6 @@ const GuessThePlayer = () => {
                 <div>
                   <h1 className="text-3xl font-bold">Gissa Spelaren</h1>
                   <p className="text-muted-foreground">Karriärsteg {revealedSteps} av {currentPlayer.career.length}</p>
-                </div>
-                <div className="text-right">
-                  <p className="text-lg font-semibold text-football-green">Poäng: {score}</p>
-                  <p className="text-sm text-muted-foreground">Spel: {gamesPlayed + 1}</p>
                 </div>
               </div>
 
@@ -261,15 +252,6 @@ const GuessThePlayer = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="mb-6">
-                    <p className="text-4xl font-bold mb-2 text-football-green">{score} poäng</p>
-                    <p className="text-muted-foreground">
-                      {gameState === 'won' 
-                        ? `Gissade efter ${revealedSteps} av ${currentPlayer.career.length} ledtrådar`
-                        : `Alla ${currentPlayer.career.length} ledtrådar visades`
-                      }
-                    </p>
-                  </div>
 
                   {/* Player's full career */}
                   <div className="mb-6 text-left">
