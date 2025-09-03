@@ -170,5 +170,253 @@
       { "club": "AS Roma", "year": "1992-2017", "country": "Italien", "matches": 786, "goals": 307 }
     ],
     "photoUrl": "https://example.com/totti.jpg"
+  },
+
+  {
+    "id": 16,
+    "name":"Rui Costa",
+    "career": [
+      {"club": "Benfica", "year": "1990–1994 ", "country": "Portugal", "matches": 78, "goals": 13 },
+      {"club": "Fafe (lån)" , "year": "1990-1991" , "country": "Portugal" , "matches": 38 , "goals": 6 },
+      {"club": "Fiorentina" , "year": "1994-2001", "country": "Italien" , "matches": 215 , "goals": 38 }.
+      {"club": "Milan" , "year": "2001–2006" , "country": "Italien" , "matches": 124 , "goals": 4 },
+      {"club": "Benfica" , "year": "2006–2008" , "country": "Portugal" , "matches": 43 , "goals": 5 }
+
+    ]
+  }
+  {
+    "id": 17,
+    "name":"Jay-Jay Okocha ",
+    "career": [
+      {"club":"Borussia Neunkirchen" , "year":"1990–1992" , "country":"Tyskland"  , "matches": 35 , "goals": 7 },
+      {"club": "Eintracht Frankfurt" , "year":"1992–1996" , "country": "Tyskland" , "matches": 90 , "goals": 18 },
+      {"club": "Fenerbahçe", "year": "1996–1998", "country": "Turkiet"  , "matches": 62  , "goals": 30 },
+      {"club": "Paris Saint-Germain" , "year": "1998–2002" , "country": "Frankrike"  , "matches": 84 , "goals": 12 },
+      {"club": "Bolton Wanderers", "year": "2002–2006" , "country": "England" , "matches": 124 , "goals": 14 },
+      {"club": "Qatar SC" , "year": "2006–2007" , "country": "Qatar" , "matches": 41 , "goals": 6 },
+      {"club": "Hull City", "year": "2007–2008", "country": "England" , "matches": 18  , "goals": 0 }
+    ]
+
+  }
+  {
+    "id": 18,
+    "name":"Gennaro Gattuso",
+    "career": [
+      {"club": "Perugia" ,    "year": "1995–1997" , "country": "Italien" ,   "matches": 10 ,  "goals": 0 },
+      {"club": "Rangers",     "year": "1997–1998",  "country": "Skottland" , "matches": 34 ,  "goals": 3 },
+      {"club": "Salernitana", "year": "1998–1999" , "country": "Italien" ,   "matches": 25 ,  "goals": 0 },
+      {"club": "AC Milan",    "year": "1999–2012" , "country": "Italien" ,   "matches": 335 , "goals": 9 },
+      {"club": "Sion",        "year": "2012-2013",  "country": "Schweiz" ,   "matches": 27 ,  "goals": 1 }
+    ]
+
+
+  }
+  {
+  {
+    "id": 19,
+    "name": "Diego Forlán",
+    "career": [
+      { "club": "Independiente",     "year": "1997–2002", "country": "Argentina", "matches": 80,  "goals": 37 },
+      { "club": "Manchester United", "year": "2002–2004", "country": "England",   "matches": 63,  "goals": 10 },
+      { "club": "Villarreal",        "year": "2004–2007", "country": "Spanien",   "matches": 106, "goals": 54 },
+      { "club": "Atlético Madrid",   "year": "2007–2011", "country": "Spanien",   "matches": 134, "goals": 74 },
+      { "club": "Inter Milan",       "year": "2011–2012", "country": "Italien",   "matches": 18,  "goals": 2 },
+      { "club": "Internacional",     "year": "2012–2014", "country": "Brasilien", "matches": 34,  "goals": 10 },
+      { "club": "Cerezo Osaka",      "year": "2014–2015", "country": "Japan",     "matches": 42,  "goals": 17 },
+      { "club": "Peñarol",           "year": "2015–2016", "country": "Uruguay",   "matches": 30,  "goals": 8 },
+      { "club": "Mumbai City",       "year": "2016",      "country": "Indien",    "matches": 11,  "goals": 5 },
+      { "club": "Kitchee",           "year": "2018",      "country": "Hongkong",  "matches": 7,   "goals": 5 }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Alessandro Diamanti",
+    "career": [
+      { "club": "Prato",               "year": "1999–2004",     "country": "Italien",     "matches": null, "goals": null },
+      { "club": "Empoli (lån)",        "year": "2000–2001",     "country": "Italien",     "matches": null, "goals": null },
+      { "club": "Fucecchio (lån)",     "year": "2001–2002",     "country": "Italien",     "matches": null, "goals": null },
+      { "club": "AlbinoLeffe",         "year": "2004–2006",     "country": "Italien",     "matches": null, "goals": null },
+      { "club": "Livorno",             "year": "2007–2009",     "country": "Italien",     "matches": null, "goals": 34 },
+      { "club": "West Ham United",     "year": "2009–2010",     "country": "England",     "matches": 27,   "goals": 7 },
+      { "club": "Brescia",             "year": "2010–2011",     "country": "Italien",     "matches": 32,   "goals": 6 },
+      { "club": "Bologna",             "year": "2011–2014",     "country": "Italien",     "matches": 88,   "goals": 23 },
+      { "club": "Guangzhou Evergrande", "year": "2014",         "country": "Kina",         "matches": null, "goals": null },
+      { "club": "Fiorentina (lån)",    "year": "2014–2015",     "country": "Italien",     "matches": 11,   "goals": 2 },
+      { "club": "Watford (lån)",       "year": "2015–2016",     "country": "England",     "matches": 3,    "goals": 0 },
+      { "club": "Atalanta (lån)",      "year": "2016",          "country": "Italien",     "matches": 16,   "goals": 1 },
+      { "club": "Palermo",             "year": "2016–2017",     "country": "Italien",     "matches": 32,   "goals": 1 },
+      { "club": "Perugia",             "year": "2017–2018",     "country": "Italien",     "matches": 14,   "goals": 2 },
+      { "club": "Livorno",             "year": "2018–2019",     "country": "Italien",     "matches": null, "goals": null },
+      { "club": "Western United",      "year": "2019–2023",     "country": "Australien",  "matches": 82,   "goals": 11 }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Tino Asprilla",
+    "career": [
+      { "club": "Cúcuta Deportivo",      "year": "1988–1989",     "country": "Colombia",   "matches": 36, "goals": 17 },
+      { "club": "Atlético Nacional",     "year": "1989–1992",     "country": "Colombia",   "matches": 75, "goals": 32 },
+      { "club": "Parma",                 "year": "1992–1996",     "country": "Italien",    "matches": 84, "goals": 25 },
+      { "club": "Newcastle United",      "year": "1996–1998",     "country": "England",    "matches": 48, "goals": 9 },
+      { "club": "Parma",                 "year": "1998–1999",     "country": "Italien",    "matches": 12, "goals": 1 },
+      { "club": "Palmeiras",             "year": "1999–2000",     "country": "Brasilien",  "matches": 12, "goals": 2 },
+      { "club": "Fluminense",            "year": "2000–2001",     "country": "Brasilien",  "matches": 12, "goals": 8 },
+      { "club": "Atlante",               "year": "2001–2002",     "country": "Mexiko",     "matches": 12, "goals": 3 },
+      { "club": "Atlético Nacional",     "year": "2002",          "country": "Colombia",   "matches": 11, "goals": 3 },
+      { "club": "Universidad de Chile",  "year": "2003",          "country": "Chile",      "matches": 13, "goals": 5 },
+      { "club": "Estudiantes La Plata",  "year": "2003–2004",     "country": "Argentina",  "matches": 2,  "goals": 0 },
+      { "club": "Cortuluá",              "year": "2004",          "country": "Colombia",   "matches": 1,  "goals": 0 }
+    ]
+  },
+
+  {
+    "id": 22,
+    "name": "Hidetoshi Nakata",
+    "career": [
+      { "club": "Bellmare Hiratsuka", "year": "1995–1998", "country": "Japan",    "matches": 85, "goals": 16 },
+      { "club": "Perugia",            "year": "1998–2000", "country": "Italien",  "matches": 48, "goals": 12 },
+      { "club": "Roma",               "year": "1999–2001", "country": "Italien",  "matches": 30, "goals": 5 },
+      { "club": "Parma",              "year": "2001–2004", "country": "Italien",  "matches": 67, "goals": 5 },
+      { "club": "Bologna (loan)",     "year": "2003–2004", "country": "Italien",  "matches": 17, "goals": 2 },
+      { "club": "Fiorentina",         "year": "2004–2005", "country": "Italien",  "matches": 20, "goals": 0 },
+      { "club": "Bolton Wanderers",   "year": "2005–2006", "country": "England",  "matches": 21, "goals": 1 }
+    ]
+  },
+
+  {
+    "id": 23,
+    "name": "Tomas Brolin",
+    "career": [
+      { "club": "Näsvikens IK",       "year": "1984–1986",   "country": "Sverige",     "matches": 36, "goals": 10 },
+      { "club": "GIF Sundsvall",       "year": "1987–1989",   "country": "Sverige",     "matches": 55, "goals": 13 },
+      { "club": "IFK Norrköping",      "year": "1990",        "country": "Sverige",     "matches": 9,  "goals": 7 },
+      { "club": "Parma",               "year": "1990–1995",   "country": "Italien",     "matches": 133,"goals": 20 },
+      { "club": "Leeds United",        "year": "1995–1997",   "country": "England",     "matches": 19, "goals": 4 },
+      { "club": "FC Zürich (lån)",     "year": "1996",        "country": "Schweiz",     "matches": 3,  "goals": 0 },
+      { "club": "Parma (lån)",         "year": "1997",        "country": "Italien",     "matches": 11, "goals": 0 },
+      { "club": "Crystal Palace",      "year": "1998",        "country": "England",     "matches": 13, "goals": 0 },
+      { "club": "Hudiksvalls ABK",     "year": "1998",        "country": "Sverige",     "matches": 1,  "goals": 0 }
+    ]
+  },
+
+  {
+    "id": 24,
+    "name": "Mário Jardel",
+    "career": [
+      { "club": "Vasco da Gama",           "year": "1992–1994",   "country": "Brasilien",   "matches": 59,  "goals": 20 },
+      { "club": "Grêmio (lån)",            "year": "1995–1996",   "country": "Brasilien",   "matches": 93,  "goals": 55 },
+      { "club": "Porto",                   "year": "1996–2000",   "country": "Portugal",    "matches": 125, "goals": 129 },
+      { "club": "Galatasaray",             "year": "2000–2001",   "country": "Turkiet",     "matches": 24,  "goals": 22 },
+      { "club": "Sporting CP",             "year": "2001–2003",   "country": "Portugal",    "matches": 49,  "goals": 53 },
+      { "club": "Bolton Wanderers",        "year": "2003–2004",   "country": "England",     "matches": 7,   "goals": 0 },
+      { "club": "Ancona (lån)",            "year": "2003–2004",   "country": "Italien",     "matches": 3,   "goals": 0 },
+      { "club": "Newell's Old Boys",       "year": "2004–2005",   "country": "Argentina",   "matches": 3,   "goals": 3 },
+      { "club": "Goiás",                   "year": "2006",        "country": "Brasilien",   "matches": 4,   "goals": 1 },
+      { "club": "Beira-Mar",               "year": "2006–2007",   "country": "Portugal",    "matches": 12,  "goals": 3 },
+      { "club": "Anorthosis Famagusta",    "year": "2006–2007",   "country": "Cypern",      "matches": 7,   "goals": 2 },
+      { "club": "Newcastle Jets",          "year": "2007–2008",   "country": "Australien",  "matches": 11,  "goals": 0 },
+      { "club": "Criciúma",                "year": "2008",        "country": "Brasilien",   "matches": 16,  "goals": 4 },
+      { "club": "Ferroviário",             "year": "2009",        "country": "Brasilien",   "matches": 6,   "goals": 5 },
+      { "club": "América (PI)",            "year": "2009",        "country": "Brasilien",   "matches": 11,  "goals": 8 },
+      { "club": "Flamengo (PI)",           "year": "2010",        "country": "Brasilien",   "matches": 16,  "goals": 12 },
+      { "club": "Cherno More",             "year": "2010–2011",   "country": "Bulgarien",   "matches": 8,   "goals": 1 },
+      { "club": "Rio Negro-AM",            "year": "2011",        "country": "Brasilien",   "matches": 0,   "goals": 0 }
+    ]
+  },
+
+  {
+    "id": 25,
+    "name": "Antonio Cassano",
+    "career": [
+      { "club": "Bari",            "year": "1999–2001",   "country": "Italien",    "matches": 48,  "goals": 6 },
+      { "club": "Roma",            "year": "2001–2006",   "country": "Italien",    "matches": 118, "goals": 39 },
+      { "club": "Real Madrid",     "year": "2006–2007",   "country": "Spanien",    "matches": 19,  "goals": 2 },
+      { "club": "Sampdoria",       "year": "2007–2011",   "country": "Italien",    "matches": 96,  "goals": 35 },
+      { "club": "Milan",           "year": "2011–2012",   "country": "Italien",    "matches": 33,  "goals": 7 },
+      { "club": "Inter Milan",     "year": "2012–2013",   "country": "Italien",    "matches": 28,  "goals": 7 },
+      { "club": "Parma",           "year": "2013–2015",   "country": "Italien",    "matches": 53,  "goals": 17 },
+      { "club": "Sampdoria",       "year": "2015–2017",   "country": "Italien",    "matches": 24,  "goals": 2 }
+    ]
+  },
+
+  {
+    "id": 26,
+    "name": "Iván Zamorano",
+    "career": [
+      { "club": "Trasandino",   "year": "1985–1986", "country": "Chile",    "matches": 29,  "goals": 27 },
+      { "club": "Cobresal",     "year": "1986–1988", "country": "Chile",    "matches": 28,  "goals": 9 },
+      { "club": "St. Gallen",   "year": "1988–1990", "country": "Schweiz",  "matches": 56,  "goals": 34 },
+      { "club": "Sevilla",      "year": "1990–1992", "country": "Spanien",  "matches": 59,  "goals": 21 },
+      { "club": "Real Madrid",  "year": "1992–1996", "country": "Spanien",  "matches": 173, "goals": 101 },
+      { "club": "Inter Milan",  "year": "1996–2001", "country": "Italien",  "matches": 101, "goals": 25 },
+      { "club": "Club América", "year": "2001–2003", "country": "Mexiko",   "matches": 63,  "goals": 33 },
+      { "club": "Colo-Colo",    "year": "2003",      "country": "Chile",    "matches": 14,  "goals": 8 }
+    ]
+  },
+
+  {
+    "id": 27,
+    "name":"Taribo West",
+    "career": [
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+    ]
+
+
+  }
+  {
+    "id": 28,
+    "name":"Pavel Nedvěd",
+    "career": [
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+    ]
+
+
+  }
+  {
+    "id": 29,
+    "name":"Paolo Montero",
+    "career": [
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+    ]
+
+
+  }
+  {
+    "id": 30,
+    "name":"Juan Sebastián Verón",
+    "career": [
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+      {"club": , "year": , "country":  , "matches":  , "goals":  }
+    ]
+
+
   }
 ]
+
