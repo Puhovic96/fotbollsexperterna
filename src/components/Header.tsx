@@ -49,6 +49,12 @@ const Header = () => {
                   Vem är jag?
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/pa-sparet" className="flex items-center gap-2 w-full">
+                  <Target className="h-4 w-4" />
+                  På Spåret
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
 

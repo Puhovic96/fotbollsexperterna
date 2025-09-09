@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "answer": "Highbury",
+    "category": "Arena",
+    "clues": [
+      "Vi reser till norra London, men inte till en plats där dagens Premier League-matcher spelas.",
+      "Här hördes kanoner eka långt innan flytten 2006.",
+      "Det här var Arsénes borg – från vilken han styrde engelsk fotboll under 90- och 00-talet.",
+      "Denna arena hade berömda Clock End och North Bank.",
+      "Arsenal spelade här i över 90 år innan flytten till Emirates Stadium."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 2,
+    "answer": "Roy Keane",
+    "category": "Spelare",
+    "clues": [
+      "Vi åker mot en hård arbetarstads son från Cork, som inte gärna undvek en tackling.",
+      "Han bar grönt i landslaget men blev mest känd i rött i klubblaget.",
+      "Känd för rivalitet med Patrick Vieira och för att vara kapten i ett lag som dominerade Premier League på 90-talet.",
+      "Hans karriär slutade abrupt efter en bok som avslöjade interna konflikter med sin tränare.",
+      "Denna irländska mittfältare blev senare tränare för Sunderland och Ipswich."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 3,
+    "answer": "White Hart Lane",
+    "category": "Arena",
+    "clues": [
+      "Resan tar oss till norra London, där tuppen en gång regerade över sitt revir.",
+      "Här såg supportrarna spelare som Ledley King, Jürgen Klinsmann och Gareth Bale slå sina vingar.",
+      "Arenan stängdes 2017 för att ge plats åt en ny toppmodern arena på samma plats.",
+      "The Shelf End var en berömd ståplatsläktare som gav atmosfär åt detta hem.",
+      "Tottenham spelade här i 118 år innan den nya arenan byggdes."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 4,
+    "answer": "Carlos Tévez",
+    "category": "Spelare",
+    "clues": [
+      "Resan startar i barrioen Ciudadela i Buenos Aires, där jag växte upp med ärr som berättar min historia.",
+      "Jag har burit båda Manchester-klubbarnas färger – en sällsynt bedrift i modern fotboll.",
+      "Min väg till Europa gick via Corinthians, men det var kontroversiellt på Upton Park.",
+      "Mitt 'Apache'-smeknamn kommer från min kampstil och min bakgrund från Fuerte Apache.",
+      "Jag avslutade karriären där det började – i Boca Juniors blåa och gula."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 5,
+    "answer": "Stadio delle Alpi",
+    "category": "Arena",
+    "clues": [
+      "Byggd för VM 1990, denna arena ligger i skuggan av Alperna i norra Italien.",
+      "Trots sin storhet var den aldrig älskad – varken av spelare eller supportrar på grund av atletikbanan.",
+      "Här spelade både 'Den gamla damen' och 'Tjuren' sina hemmamatcher i nästan två decennier.",
+      "Rivna 2009 för att ge plats åt en mer intim arena för samma klubb.",
+      "Juventus och Torino delade denna arena som höll 69 041 åskådare."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 6,
+    "answer": "Gennaro Gattuso",
+    "category": "Spelare",
+    "clues": [
+      "Från Corigliano Calabro kommer denna krigare som aldrig gav upp en duell på mittfältet.",
+      "Han bar kaptensbindeln för sitt land i VM-finalen 2006 på hemmaplan.",
+      "Tillsammans med Andrea Pirlo bildade han hjärtat i Milans gyllene mittfält under 2000-talet.",
+      "Hans hårda spel och temperament gjorde honom fruktad – men även respekterad av motståndare.",
+      "Denne defensive mittfältare kallades 'Ringhio' för sitt aggressiva sätt."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 7,
+    "answer": "Borussia Dortmund",
+    "category": "Lag",
+    "clues": [
+      "Denna klubb föddes ur askan från gruvorna i Ruhrområdet 1909.",
+      "Deras gula mur av supportrar skapar en av Europas mest imponerande atmosfärer.",
+      "De vann Champions League 1997 med en ung tränare som senare skulle erövra världen.",
+      "Signal Iduna Park – eller som det heter för supportrarna – 'Westfalenstadion' är deras hem.",
+      "BVB är känt för att utveckla unga talanger som Sancho, Haaland och Pulisic."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 8,
+    "answer": "Jay-Jay Okocha",
+    "category": "Spelare",
+    "clues": [
+      "Från Lagos kom denna konstnär som kunde få bollen att dansa efter sin vilja.",
+      "Paris Saint-Germain var hans första europeiska klubb där han visade sin afrikanska magi.",
+      "I Bundesliga blev han en kultfigur i Frankfurt med sina otroliga tricks och frisparkar.",
+      "Bolton Wanderers fick uppleva Premier League-fotboll tack vare denna nigerianska trollkarl.",
+      "Hans förnamn var egentligen Augustine, men hela världen kände honom som 'Jay-Jay'."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 9,
+    "answer": "San Siro",
+    "category": "Arena",
+    "clues": [
+      "Denna katedral i Milano bär namnet efter en lokal helgon, men känns igen av fotbollsvärlden.",
+      "Både röd-svarta och blå-svarta färger har hyst hemma här sedan 1947.",
+      "Fyra torn reser sig mot himlen och har varit vittne till otaliga Champions League-nätter.",
+      "Giuseppe Meazza är det officiella namnet, men få använder det.",
+      "Inter och Milan delar denna arena som håller över 75 000 åskådare."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 10,
+    "answer": "Javier Mascherano",
+    "category": "Spelare",
+    "clues": [
+      "Från San Lorenzo kom denna terrier som aldrig backade ur en duell trots sin längd.",
+      "West Ham fick honom via en kontroversiell tredjepartsägarlösning tillsammans med Tévez.",
+      "Liverpool värvade honom för att fylla tomrummet efter Steven Gerrard i det defensiva mittfältet.",
+      "Barcelona såg honom som Busquets backup, men han flyttade till centralt försvar under Pep.",
+      "Denna argentinska kapten spelade över 140 landskamper och var känd för sitt hjärta."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 11,
+    "answer": "Olympiakos",
+    "category": "Lag",
+    "clues": [
+      "Denna klubb regerar över fotbollslandskapet i sitt hemland sedan decennier tillbaka.",
+      "Grundad 1925 i Pireus, har de dominerat sin liga med järnhand.",
+      "Rött och vitt är färgerna som bärs av 'Gate 7' – en av Europas mest passionerade supportergrupper.",
+      "De spelar sina hemmamatcher på Georgios Karaiskakis Stadium.",
+      "Denna grekiska storklubb har vunnit över 40 ligatitlar."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 12,
+    "answer": "Clarence Seedorf",
+    "category": "Spelare",
+    "clues": [
+      "Från Paramaribo kom denna elegante mittfältare som kunde spela i vilken position som helst.",
+      "Som 18-åring vann han redan Champions League med Ajax gyllene generation 1995.",
+      "Han är den ende spelaren som vunnit Champions League med tre olika klubbar.",
+      "Real Madrid, Milan och Ajax – alla har fått smaka på hans magi.",
+      "Denne surinamese-holländska maestro blev senare tränare för Milan."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 13,
+    "answer": "Upton Park",
+    "category": "Arena",
+    "l": [
+      "I östra London stod denna arena som hem för hammarna i över 100 år.",
+      "Bubblornas sång ekade över denna arena varje matchdag sedan 1904.",
+      "Här slog England sina första VM-matcher på hemmaplan 1966.",
+      "Bobby Moore ledde både klubb och land från denna arena som kallade sig 'Boleyn Ground'.",
+      "West Ham lämnade denna historiska arena 2016 för att flytta till Olympiastadion."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 14,
+    "answer": "Edgar Davids",
+    "category": "Spelare",
+    "clues": [
+      "Denna surinamese-holländska krigare bar alltid skyddsglasögon på grund av glaukom.",
+      "Ajax akademi formade honom till en av Europas bästa defensiva mittfältare på 90-talet.",
+      "Juventus värvade honom för att förstärka sitt mittfält under calciopoli-skandalen.",
+      "Tottenham fick låna denna veteran som fortfarande kunde härja på gamla dar.",
+      "Hans smeknamn 'The Pitbull' beskrev hans spelstil perfekt."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  },
+  {
+    "id": 15,
+    "answer": "Bayer Leverkusen",
+    "category": "Lag",
+    "clues": [
+      "Denna klubb föddes ur en kemikoncerns fabrikslag 1904 i Rhenlandet.",
+      "De kallas ofta 'Neverkusen' för sina nära-missar i viktiga finaler.",
+      "BayArena är hemmet där farmaceutiska giganten fortfarande äger klubben.",
+      "2002 var de sekunder från treble men förlorade allt – Champions League, Bundesliga och DFB-Pokal.",
+      "'Die Werkself' (fabrikslaget) vann äntligen Bundesliga 2024 utan att förlora en match."
+    ],
+    "points": [10, 7, 5, 3, 1]
+  }
+]

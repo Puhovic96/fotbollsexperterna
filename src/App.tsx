@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Quiz from "./pages/Quiz";
 import GuessThePlayer from "./pages/GuessThePlayer";
 import WhoAmI from "./pages/WhoAmI";
+import PaSparet from "./pages/PaSparet";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/guess-the-player" element={<GuessThePlayer />} />
           <Route path="/who-am-i" element={<WhoAmI />} />
+          <Route path="/pa-sparet" element={<PaSparet />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
