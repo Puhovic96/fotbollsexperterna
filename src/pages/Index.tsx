@@ -41,7 +41,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
               {/* Quiz Card */}
               <Card className="group hover-goal shadow-card-custom">
                 <CardHeader className="text-center pb-4">
@@ -160,6 +160,35 @@ const Index = () => {
                   </Link>
                 </CardContent>
               </Card>
+
+              {/* Higher or Lower Card */}
+              <Card className="group hover-goal shadow-card-custom">
+                <CardHeader className="text-center pb-4">
+                  <div className="bg-gradient-goal p-4 rounded-full w-16 h-16 mx-auto mb-4 shadow-goal">
+                    <Trophy className="h-8 w-8 text-football-green-dark" />
+                  </div>
+                  <CardTitle className="text-2xl">Higher or Lower</CardTitle>
+                  <CardDescription>
+                    Gissa om statistiken är högre eller lägre
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="mb-6">
+                    <div className="flex justify-center gap-1 mb-4">
+                      <span className="bg-win-green text-field-white px-2 py-1 rounded text-xs">📊 Stats</span>
+                      <span className="bg-lose-red text-field-white px-2 py-1 rounded text-xs">🎯 Gissa</span>
+                    </div>
+                    <p className="text-muted-foreground text-sm">
+                      Testa dina kunskaper om fotbollsstatistik
+                    </p>
+                  </div>
+                  <Link to="/higher-lower">
+                    <Button variant="field" className="w-full">
+                      Spela Nu
+                    </Button>
+                  </Link>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -187,7 +216,7 @@ const Index = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Olika Spellägen</h3>
                   <p className="text-field-white/80">
-                    Fyra unika spel som testar olika aspekter av fotbollskunskap
+                    Fem unika spel som testar olika aspekter av fotbollskunskap
                   </p>
                 </div>
                 

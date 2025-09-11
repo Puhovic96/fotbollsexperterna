@@ -55,6 +55,12 @@ const Header = () => {
                   På Spåret
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/higher-lower" className="flex items-center gap-2 w-full">
+                  <Trophy className="h-4 w-4" />
+                  Higher or Lower
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
 
