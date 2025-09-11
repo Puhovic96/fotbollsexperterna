@@ -9,6 +9,7 @@ import GuessThePlayer from "./pages/GuessThePlayer";
 import WhoAmI from "./pages/WhoAmI";
 import PaSparet from "./pages/PaSparet";
 import HigherLower from "./pages/HigherLower";
+import TimelineChallenge from "./pages/TimelineChallenge";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/who-am-i" element={<WhoAmI />} />
           <Route path="/pa-sparet" element={<PaSparet />} />
           <Route path="/higher-lower" element={<HigherLower />} />
+          <Route path="/timeline-challenge" element={<TimelineChallenge />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

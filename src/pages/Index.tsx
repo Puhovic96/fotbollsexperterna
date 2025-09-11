@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Target, HelpCircle, Trophy, Star, Users } from "lucide-react";
-import heroImage from "@/assets/football-hero.jpg";
+import { Target, HelpCircle, Trophy, Star, Users, Clock } from "lucide-react";
+import heroImage from "@/assets/football-celebration-hero.jpg";
 
 const Index = () => {
   return (
@@ -41,7 +41,7 @@ const Index = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-8">
               {/* Quiz Card */}
               <Card className="group hover-goal shadow-card-custom">
                 <CardHeader className="text-center pb-4">
@@ -189,6 +189,36 @@ const Index = () => {
                   </Link>
                 </CardContent>
               </Card>
+
+              {/* Timeline Challenge Card */}
+              <Card className="group hover-goal shadow-card-custom">
+                <CardHeader className="text-center pb-4">
+                  <div className="bg-gradient-goal p-4 rounded-full w-16 h-16 mx-auto mb-4 shadow-goal">
+                    <Clock className="h-8 w-8 text-football-green-dark" />
+                  </div>
+                  <CardTitle className="text-2xl">Timeline Challenge</CardTitle>
+                  <CardDescription>
+                    Dra och släpp klubbar i rätt ordning
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <div className="mb-6">
+                    <div className="flex justify-center gap-1 mb-4">
+                      <span className="bg-football-green text-field-white px-2 py-1 rounded text-xs">🏃‍♂️ Drag</span>
+                      <span className="bg-goal-gold text-football-green-dark px-2 py-1 rounded text-xs">📍 Drop</span>
+                      <span className="bg-field-cream text-football-green-dark px-2 py-1 rounded text-xs">⏰ Ordning</span>
+                    </div>
+                    <p className="text-muted-foreground text-sm">
+                      Arrangera spelarens klubbhistoria kronologiskt
+                    </p>
+                  </div>
+                  <Link to="/timeline-challenge">
+                    <Button variant="field" className="w-full">
+                      Spela Timeline
+                    </Button>
+                  </Link>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -216,7 +246,7 @@ const Index = () => {
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Olika Spellägen</h3>
                   <p className="text-field-white/80">
-                    Fem unika spel som testar olika aspekter av fotbollskunskap
+                    Sex unika spel som testar olika aspekter av fotbollskunskap
                   </p>
                 </div>
                 

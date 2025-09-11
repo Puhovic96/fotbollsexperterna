@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Trophy, Target, HelpCircle, Menu } from "lucide-react";
+import { Trophy, Target, HelpCircle, Menu, Clock } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -59,6 +59,12 @@ const Header = () => {
                 <Link to="/higher-lower" className="flex items-center gap-2 w-full">
                   <Trophy className="h-4 w-4" />
                   Higher or Lower
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/timeline-challenge" className="flex items-center gap-2 w-full">
+                  <Clock className="h-4 w-4" />
+                  Timeline Challenge
                 </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
