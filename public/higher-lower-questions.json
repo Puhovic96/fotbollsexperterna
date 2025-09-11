@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "question": "Gjorde Didier Drogba fler eller färre än 25 mål i Premier League 2009/10?",
+    "correctAnswer": "Higher",
+    "actualStat": 29,
+    "statType": "Goals",
+    "player": "Didier Drogba",
+    "season": "2009/10"
+  },
+  {
+    "id": 2,
+    "question": "Spelade Javier Mascherano fler eller färre än 150 matcher för Barcelona?",
+    "correctAnswer": "Higher",
+    "actualStat": 334,
+    "statType": "Matches",
+    "player": "Javier Mascherano",
+    "season": "2010-2018"
+  },
+  {
+    "id": 3,
+    "question": "Fick Gennaro Gattuso fler eller färre än 70 gula kort i Serie A?",
+    "correctAnswer": "Higher",
+    "actualStat": 81,
+    "statType": "Yellow Cards",
+    "player": "Gennaro Gattuso",
+    "season": "1995-2012"
+  },
+  {
+    "id": 4,
+    "question": "Gjorde Alan Shearer fler eller färre än 250 Premier League-mål totalt?",
+    "correctAnswer": "Higher",
+    "actualStat": 260,
+    "statType": "Goals",
+    "player": "Alan Shearer",
+    "season": "1992-2006"
+  },
+  {
+    "id": 5,
+    "question": "Vann Roy Keane fler eller färre än 5 Premier League-titlar?",
+    "correctAnswer": "Higher",
+    "actualStat": 7,
+    "statType": "Trophies",
+    "player": "Roy Keane",
+    "season": "1993-2005"
+  },
+  {
+    "id": 6,
+    "question": "Gjorde Ronaldinho fler eller färre än 100 mål för Barcelona?",
+    "correctAnswer": "Lower",
+    "actualStat": 94,
+    "statType": "Goals",
+    "player": "Ronaldinho",
+    "season": "2003-2008"
+  },
+  {
+    "id": 7,
+    "question": "Höll Petr Čech fler eller färre än 200 clean sheets i Premier League?",
+    "correctAnswer": "Higher",
+    "actualStat": 202,
+    "statType": "Clean Sheets",
+    "player": "Petr Čech",
+    "season": "2004-2019"
+  },
+  {
+    "id": 8,
+    "question": "Gjorde Jay-Jay Okocha fler eller färre än 15 mål i Premier League totalt?",
+    "correctAnswer": "Lower",
+    "actualStat": 18,
+    "statType": "Goals",
+    "player": "Jay-Jay Okocha",
+    "season": "2002-2007"
+  },
+  {
+    "id": 9,
+    "question": "Spelade Paolo Maldini fler eller färre än 900 matcher för Milan?",
+    "correctAnswer": "Higher",
+    "actualStat": 902,
+    "statType": "Matches",
+    "player": "Paolo Maldini",
+    "season": "1984-2009"
+  },
+  {
+    "id": 10,
+    "question": "Gjorde Zlatan Ibrahimović fler eller färre än 35 mål för PSG 2015/16?",
+    "correctAnswer": "Higher",
+    "actualStat": 38,
+    "statType": "Goals",
+    "player": "Zlatan Ibrahimović",
+    "season": "2015/16"
+  },
+  {
+    "id": 11,
+    "question": "Fick Sergio Ramos fler eller färre än 25 röda kort i karriären?",
+    "correctAnswer": "Higher",
+    "actualStat": 29,
+    "statType": "Red Cards",
+    "player": "Sergio Ramos",
+    "season": "2003-2023"
+  },
+  {
+    "id": 12,
+    "question": "Gjorde Andrea Pirlo fler eller färre än 30 mål i Serie A totalt?",
+    "correctAnswer": "Higher",
+    "actualStat": 41,
+    "statType": "Goals",
+    "player": "Andrea Pirlo",
+    "season": "1995-2015"
+  },
+  {
+    "id": 13,
+    "question": "Vann Arsenal fler eller färre än 15 FA Cup-titlar totalt?",
+    "correctAnswer": "Lower",
+    "actualStat": 14,
+    "statType": "Trophies",
+    "player": "Arsenal FC",
+    "season": "1872-2023"
+  },
+  {
+    "id": 14,
+    "question": "Gjorde Carlos Tévez fler eller färre än 80 mål i Premier League totalt?",
+    "correctAnswer": "Lower",
+    "actualStat": 84,
+    "statType": "Goals",
+    "player": "Carlos Tévez",
+    "season": "2006-2013"
+  },
+  {
+    "id": 15,
+    "question": "Spelade Clarence Seedorf fler eller färre än 400 matcher i Champions League?",
+    "correctAnswer": "Lower",
+    "actualStat": 125,
+    "statType": "Matches",
+    "player": "Clarence Seedorf",
+    "season": "1992-2014"
+  },
+  {
+    "id": 16,
+    "question": "Gjorde Gerd Müller fler eller färre än 350 mål för Bayern München?",
+    "correctAnswer": "Higher",
+    "actualStat": 365,
+    "statType": "Goals",
+    "player": "Gerd Müller",
+    "season": "1964-1979"
+  },
+  {
+    "id": 17,
+    "question": "Gav Kevin De Bruyne fler eller färre än 20 assist i Premier League 2019/20?",
+    "correctAnswer": "Lower",
+    "actualStat": 20,
+    "statType": "Assists",
+    "player": "Kevin De Bruyne",
+    "season": "2019/20"
+  },
+  {
+    "id": 18,
+    "question": "Spelade Edgar Davids fler eller färre än 250 matcher för Ajax?",
+    "correctAnswer": "Lower",
+    "actualStat": 185,
+    "statType": "Matches",
+    "player": "Edgar Davids",
+    "season": "1991-1996, 2007-2008"
+  },
+  {
+    "id": 19,
+    "question": "Gjorde Thierry Henry fler eller färre än 175 Premier League-mål?",
+    "correctAnswer": "Higher",
+    "actualStat": 175,
+    "statType": "Goals",
+    "player": "Thierry Henry",
+    "season": "1999-2007, 2011-2012"
+  },
+  {
+    "id": 20,
+    "question": "Vann Borussia Dortmund fler eller färre än 8 Bundesliga-titlar totalt?",
+    "correctAnswer": "Lower",
+    "actualStat": 8,
+    "statType": "Trophies",
+    "player": "Borussia Dortmund",
+    "season": "1909-2023"
+  },
+  {
+    "id": 21,
+    "question": "Gjorde Kaká fler eller färre än 100 mål för Milan?",
+    "correctAnswer": "Lower",
+    "actualStat": 95,
+    "statType": "Goals",
+    "player": "Kaká",
+    "season": "2003-2009, 2013-2014"
+  },
+  {
+    "id": 22,
+    "question": "Spelade Franco Baresi fler eller färre än 700 matcher för Milan?",
+    "correctAnswer": "Lower",
+    "actualStat": 719,
+    "statType": "Matches",
+    "player": "Franco Baresi",
+    "season": "1977-1997"
+  },
+  {
+    "id": 23,
+    "question": "Gjorde Ruud van Nistelrooy fler eller färre än 95 mål för Manchester United?",
+    "correctAnswer": "Higher",
+    "actualStat": 95,
+    "statType": "Goals",
+    "player": "Ruud van Nistelrooy",
+    "season": "2001-2006"
+  },
+  {
+    "id": 24,
+    "question": "Gav Mesut Özil fler eller färre än 75 assist i Premier League totalt?",
+    "correctAnswer": "Lower",
+    "actualStat": 54,
+    "statType": "Assists",
+    "player": "Mesut Özil",
+    "season": "2013-2021"
+  },
+  {
+    "id": 25,
+    "question": "Spelade Lothar Matthäus fler eller färre än 150 landskamper för Tyskland?",
+    "correctAnswer": "Higher",
+    "actualStat": 150,
+    "statType": "International Matches",
+    "player": "Lothar Matthäus",
+    "season": "1980-2000"
+  }
+]
