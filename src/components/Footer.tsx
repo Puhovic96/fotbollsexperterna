@@ -1,49 +1,48 @@
 const Footer = () => {
   return (
-    <footer className="bg-football-green-dark border-t-4 border-goal-gold mt-12">
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+    <footer className="bg-gray-900 border-t border-border mt-16">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold text-field-white mb-2">
-              Football Fun Hub
+            <h3 className="text-xl font-bold text-white mb-3">
+              Fotbollsexperterna
             </h3>
-            <p className="text-field-white/80">
-              Din destination för fotbollskul och kunskap
+            <p className="text-gray-400">
+              Din professionella destination för fotbollskunskap och underhållning
             </p>
           </div>
 
-          {/* Google AdSense Space */}
+          {/* AdSense Space */}
           <div className="text-center">
-            <div className="bg-field-white/10 border-2 border-dashed border-field-white/20 rounded-lg p-4 min-h-[120px] flex items-center justify-center">
-              <p className="text-field-white/60 text-sm">
-                Google AdSense
-                <br />
-                Annonsplats
-              </p>
+            <div className="bg-gray-800 border-2 border-dashed border-gray-700 rounded-lg p-6 min-h-[120px] flex items-center justify-center">
+              <div className="text-gray-500">
+                <p className="text-sm font-medium">Annonsplats</p>
+                <p className="text-xs">Google AdSense</p>
+              </div>
             </div>
           </div>
 
-          {/* Affiliate Links */}
+          {/* Links */}
           <div className="text-center md:text-right">
-            <div className="bg-field-white/10 border-2 border-dashed border-field-white/20 rounded-lg p-4">
-              <h4 className="text-field-white font-semibold mb-2">
-                Visa vilket lag du hejar på!
+            <div className="bg-gray-800 rounded-lg p-6">
+              <h4 className="text-white font-semibold mb-4">
+                Fotbollsprodukter
               </h4>
-              <div className="space-y-2">
+              <div className="space-y-3">
                 <a 
                   href="#" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block bg-goal-gold text-football-green-dark px-4 py-2 rounded font-medium hover:bg-goal-gold-light transition-colors"
+                  className="block bg-primary text-white px-4 py-2 rounded font-medium hover:bg-primary/90 transition-colors"
                 >
-                  Köp matchtröja →
+                  Matchtröjor →
                 </a>
                 <a 
                   href="#" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="block bg-field-white/20 text-field-white px-4 py-2 rounded font-medium hover:bg-field-white/30 transition-colors"
+                  className="block bg-gray-700 text-white px-4 py-2 rounded font-medium hover:bg-gray-600 transition-colors"
                 >
                   Fotbollsskor →
                 </a>
@@ -52,9 +51,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-field-white/20 mt-6 pt-6 text-center">
-          <p className="text-field-white/60 text-sm">
-            © 2024 Football Fun Hub. Alla rättigheter förbehållna.
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p className="text-gray-500 text-sm">
+            © 2024 Fotbollsexperterna. Alla rättigheter förbehållna.
           </p>
         </div>
       </div>

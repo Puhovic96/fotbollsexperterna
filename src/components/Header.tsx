@@ -14,13 +14,13 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="bg-gradient-field border-b-4 border-goal-gold shadow-field">
-      <div className="container mx-auto px-4 py-6">
+    <header className="bg-white border-b border-border shadow-sm">
+      <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between gap-4">
           {/* Menu Button */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Button variant="field" size="icon" className="hover-goal">
+              <Button variant="outline" size="icon" className="hover-lift">
                 <Menu className="h-5 w-5" />
               </Button>
             </DropdownMenuTrigger>
@@ -72,10 +72,10 @@ const Header = () => {
 
           {/* Centered Logo */}
           <Link to="/" className="flex items-center gap-3 group absolute left-1/2 transform -translate-x-1/2">
-            <div className="bg-goal-gold p-3 rounded-full shadow-goal group-hover:scale-110 transition-transform duration-300">
-              <Trophy className="h-8 w-8 text-football-green-dark" />
+            <div className="bg-primary p-2 rounded-lg group-hover:scale-105 transition-transform duration-200">
+              <Trophy className="h-6 w-6 text-white" />
             </div>
-            <h1 className="text-3xl font-bold text-field-white tracking-tight">
+            <h1 className="text-2xl font-bold text-foreground tracking-tight">
               Fotbollsexperterna
             </h1>
           </Link>

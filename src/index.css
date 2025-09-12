@@ -2,62 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Football-inspired design system */
+/* Clean and professional design system */
 @layer base {
   :root {
-    /* Football field green palette */
-    --football-green: 134 74% 20%;
-    --football-green-light: 134 60% 35%;
-    --football-green-dark: 134 80% 15%;
+    /* Professional color palette */
+    --primary-blue: 210 100% 50%;
+    --primary-blue-light: 210 100% 60%;
+    --primary-blue-dark: 210 100% 40%;
     
-    /* Field lines and text */
-    --field-white: 0 0% 98%;
-    --field-cream: 48 100% 96%;
+    /* Neutral grays */
+    --gray-50: 210 20% 98%;
+    --gray-100: 210 15% 95%;
+    --gray-200: 210 15% 90%;
+    --gray-300: 210 15% 80%;
+    --gray-400: 210 15% 60%;
+    --gray-500: 210 15% 40%;
+    --gray-600: 210 15% 30%;
+    --gray-700: 210 15% 20%;
+    --gray-800: 210 15% 15%;
+    --gray-900: 210 15% 10%;
     
-    /* Goal and accent colors */
-    --goal-gold: 43 100% 50%;
-    --goal-gold-light: 43 100% 65%;
-    
-    /* Match result colors */
-    --win-green: 120 100% 25%;
-    --lose-red: 0 84% 45%;
-    --neutral-gray: 220 10% 40%;
+    /* Accent colors */
+    --accent-green: 142 76% 36%;
+    --accent-orange: 25 95% 53%;
+    --accent-red: 0 84% 60%;
     
     /* Design system colors */
-    --background: var(--field-cream);
-    --foreground: var(--football-green-dark);
-    --card: var(--field-white);
-    --card-foreground: var(--football-green-dark);
-    --popover: var(--field-white);
-    --popover-foreground: var(--football-green-dark);
-    --primary: var(--football-green);
-    --primary-foreground: var(--field-white);
-    --secondary: var(--football-green-light);
-    --secondary-foreground: var(--field-white);
-    --muted: 134 30% 85%;
-    --muted-foreground: var(--neutral-gray);
-    --accent: var(--goal-gold);
-    --accent-foreground: var(--football-green-dark);
-    --destructive: var(--lose-red);
-    --destructive-foreground: var(--field-white);
-    --border: 134 30% 75%;
-    --input: var(--field-white);
-    --ring: var(--goal-gold);
-    --radius: 0.75rem;
+    --background: var(--gray-50);
+    --foreground: var(--gray-900);
+    --card: 0 0% 100%;
+    --card-foreground: var(--gray-900);
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--gray-900);
+    --primary: var(--primary-blue);
+    --primary-foreground: 0 0% 100%;
+    --secondary: var(--gray-100);
+    --secondary-foreground: var(--gray-900);
+    --muted: var(--gray-100);
+    --muted-foreground: var(--gray-500);
+    --accent: var(--primary-blue-light);
+    --accent-foreground: 0 0% 100%;
+    --destructive: var(--accent-red);
+    --destructive-foreground: 0 0% 100%;
+    --border: var(--gray-200);
+    --input: 0 0% 100%;
+    --ring: var(--primary-blue);
+    --radius: 0.5rem;
 
-    /* Custom gradients */
-    --gradient-field: linear-gradient(135deg, hsl(var(--football-green-dark)), hsl(var(--football-green)));
-    --gradient-goal: linear-gradient(135deg, hsl(var(--goal-gold)), hsl(var(--goal-gold-light)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--field-white)), hsl(48 100% 98%));
+    /* Subtle gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary-blue)), hsl(var(--primary-blue-light)));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(var(--gray-50)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-blue-dark)), hsl(var(--primary-blue)));
     
-    /* Shadows */
-    --shadow-field: 0 10px 30px -5px hsl(var(--football-green) / 0.3);
-    --shadow-goal: 0 8px 25px -8px hsl(var(--goal-gold) / 0.4);
-    --shadow-card: 0 4px 20px -4px hsl(var(--football-green) / 0.1);
+    /* Clean shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(var(--gray-900) / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(var(--gray-900) / 0.1), 0 2px 4px -1px hsl(var(--gray-900) / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(var(--gray-900) / 0.1), 0 4px 6px -2px hsl(var(--gray-900) / 0.05);
     
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --bounce-in: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* Smooth animations */
+    --transition-all: all 0.2s ease-in-out;
+    --transition-colors: color, background-color, border-color, text-decoration-color, fill, stroke 0.15s ease-in-out;
 
     --sidebar-background: var(--field-white);
     --sidebar-foreground: var(--football-green-dark);
@@ -70,31 +74,31 @@
   }
 
   .dark {
-    --background: var(--football-green-dark);
-    --foreground: var(--field-white);
-    --card: var(--football-green);
-    --card-foreground: var(--field-white);
-    --popover: var(--football-green);
-    --popover-foreground: var(--field-white);
-    --primary: var(--goal-gold);
-    --primary-foreground: var(--football-green-dark);
-    --secondary: var(--football-green-light);
-    --secondary-foreground: var(--field-white);
-    --muted: var(--football-green-light);
-    --muted-foreground: 134 20% 70%;
-    --accent: var(--goal-gold-light);
-    --accent-foreground: var(--football-green-dark);
-    --border: var(--football-green-light);
-    --input: var(--football-green);
-    --ring: var(--goal-gold-light);
-    --sidebar-background: var(--football-green);
-    --sidebar-foreground: var(--field-white);
-    --sidebar-primary: var(--goal-gold);
-    --sidebar-primary-foreground: var(--football-green-dark);
-    --sidebar-accent: var(--football-green-light);
-    --sidebar-accent-foreground: var(--field-white);
-    --sidebar-border: var(--football-green-light);
-    --sidebar-ring: var(--goal-gold-light);
+    --background: var(--gray-900);
+    --foreground: var(--gray-50);
+    --card: var(--gray-800);
+    --card-foreground: var(--gray-50);
+    --popover: var(--gray-800);
+    --popover-foreground: var(--gray-50);
+    --primary: var(--primary-blue-light);
+    --primary-foreground: var(--gray-900);
+    --secondary: var(--gray-800);
+    --secondary-foreground: var(--gray-50);
+    --muted: var(--gray-800);
+    --muted-foreground: var(--gray-400);
+    --accent: var(--primary-blue);
+    --accent-foreground: var(--gray-50);
+    --border: var(--gray-700);
+    --input: var(--gray-800);
+    --ring: var(--primary-blue-light);
+    --sidebar-background: var(--gray-800);
+    --sidebar-foreground: var(--gray-50);
+    --sidebar-primary: var(--primary-blue);
+    --sidebar-primary-foreground: var(--gray-900);
+    --sidebar-accent: var(--gray-700);
+    --sidebar-accent-foreground: var(--gray-50);
+    --sidebar-border: var(--gray-700);
+    --sidebar-ring: var(--primary-blue-light);
   }
 }
 
@@ -106,48 +110,45 @@
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
   }
 
-  /* Football field pattern background */
-  .field-pattern {
-    background-image: 
-      repeating-linear-gradient(
-        90deg,
-        transparent,
-        transparent 50px,
-        hsl(var(--field-white) / 0.1) 50px,
-        hsl(var(--field-white) / 0.1) 52px
-      );
+  /* Clean animations */
+  .fade-in {
+    animation: fadeIn 0.3s ease-out;
   }
 
-  /* Goal celebration animation */
-  .goal-celebration {
-    animation: goalBounce 0.6s var(--bounce-in);
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 
-  @keyframes goalBounce {
-    0% { transform: scale(0.3) rotate(-5deg); opacity: 0; }
-    50% { transform: scale(1.1) rotate(2deg); opacity: 1; }
-    100% { transform: scale(1) rotate(0deg); opacity: 1; }
+  .scale-in {
+    animation: scaleIn 0.2s ease-out;
   }
 
-  /* Match result animations */
-  .result-slide-up {
-    animation: slideUp 0.5s ease-out forwards;
-  }
-
-  @keyframes slideUp {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
   }
 
   /* Hover effects */
-  .hover-goal {
-    transition: var(--transition-smooth);
+  .hover-lift {
+    transition: var(--transition-all);
   }
   
-  .hover-goal:hover {
+  .hover-lift:hover {
     transform: translateY(-2px);
-    box-shadow: var(--shadow-goal);
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* Professional card styles */
+  .card-pro {
+    @apply bg-card border border-border rounded-lg shadow-sm hover:shadow-md;
+    transition: var(--transition-all);
+  }
+
+  .card-pro:hover {
+    transform: translateY(-1px);
   }
 }

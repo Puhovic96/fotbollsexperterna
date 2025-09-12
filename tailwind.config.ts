@@ -62,30 +62,32 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Football theme colors
-				'football-green': {
-					DEFAULT: 'hsl(var(--football-green))',
-					light: 'hsl(var(--football-green-light))',
-					dark: 'hsl(var(--football-green-dark))'
+				// Professional color palette
+				gray: {
+					50: 'hsl(var(--gray-50))',
+					100: 'hsl(var(--gray-100))',
+					200: 'hsl(var(--gray-200))',
+					300: 'hsl(var(--gray-300))',
+					400: 'hsl(var(--gray-400))',
+					500: 'hsl(var(--gray-500))',
+					600: 'hsl(var(--gray-600))',
+					700: 'hsl(var(--gray-700))',
+					800: 'hsl(var(--gray-800))',
+					900: 'hsl(var(--gray-900))'
 				},
-				'goal-gold': {
-					DEFAULT: 'hsl(var(--goal-gold))',
-					light: 'hsl(var(--goal-gold-light))'
-				},
-				'field-white': 'hsl(var(--field-white))',
-				'field-cream': 'hsl(var(--field-cream))',
-				'win-green': 'hsl(var(--win-green))',
-				'lose-red': 'hsl(var(--lose-red))'
+				'accent-green': 'hsl(var(--accent-green))',
+				'accent-orange': 'hsl(var(--accent-orange))',
+				'accent-red': 'hsl(var(--accent-red))'
 			},
 			backgroundImage: {
-				'gradient-field': 'var(--gradient-field)',
-				'gradient-goal': 'var(--gradient-goal)',
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)'
 			},
 			boxShadow: {
-				'field': 'var(--shadow-field)',
-				'goal': 'var(--shadow-goal)',
-				'card-custom': 'var(--shadow-card)'
+				'sm': 'var(--shadow-sm)',
+				'md': 'var(--shadow-md)',
+				'lg': 'var(--shadow-lg)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
