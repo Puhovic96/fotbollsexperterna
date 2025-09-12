@@ -196,7 +196,6 @@ const TimelineChallenge = () => {
                 className="bg-card p-3 rounded-lg border-2 border-dashed border-muted-foreground/30 cursor-move hover:border-football-green hover:bg-field-cream/50 transition-all duration-200 min-w-[120px] text-center"
               >
                 <div className="font-semibold text-sm">{item.club}</div>
-                <div className="text-xs text-muted-foreground">{item.year}</div>
                 <div className="text-xs text-muted-foreground">{item.country}</div>
               </div>
             ))}
@@ -245,7 +244,6 @@ const TimelineChallenge = () => {
                       onClick={() => handleRemoveFromTimeline(userOrder[index])}
                     >
                       <div className="font-semibold text-sm">{userOrder[index].club}</div>
-                      <div className="text-xs text-muted-foreground">{userOrder[index].year}</div>
                       <div className="text-xs text-muted-foreground">{userOrder[index].country}</div>
                     </div>
                   ) : (
