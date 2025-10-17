@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import FootballQuotes from "@/components/FootballQuotes";
 import { Target, HelpCircle, Trophy, Star, Users, Clock } from "lucide-react";
 import heroImage from "@/assets/football-celebration-hero.jpg";
+import footballFieldBg from "@/assets/football-field-bg.jpg";
 
 const Index = () => {
   return (
@@ -14,8 +15,17 @@ const Index = () => {
       
       <main>
         {/* Hero Section */}
-        <section className="relative bg-gradient-hero text-white">
-          <div className="container mx-auto px-4 py-24">
+        <section className="relative bg-gradient-hero text-white overflow-hidden">
+          <div 
+            className="absolute inset-0 opacity-20"
+            style={{
+              backgroundImage: `url(${footballFieldBg})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          />
+          <div className="container mx-auto px-4 py-24 relative z-10">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
                 Fotbollsexperterna

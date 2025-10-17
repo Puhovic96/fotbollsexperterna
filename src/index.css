@@ -18,7 +18,7 @@
     --accent-red: 0 84% 60%;
     
     /* Design system colors */
-    --background: var(--off-white);
+    --background: var(--light-gray);
     --foreground: var(--black);
     --card: var(--light-gray);
     --card-foreground: var(--black);
