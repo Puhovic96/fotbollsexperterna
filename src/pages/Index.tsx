@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FootballQuotes from "@/components/FootballQuotes";
 import { Target, HelpCircle, Trophy, Star, Users, Clock } from "lucide-react";
 import heroImage from "@/assets/football-celebration-hero.jpg";
 
@@ -19,7 +20,10 @@ const Index = () => {
               <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
                 Fotbollsexperterna
               </h1>
-              <p className="text-xl md:text-2xl mb-8 text-white/90">
+              
+              <FootballQuotes />
+              
+              <p className="text-xl md:text-2xl mt-8 mb-8 text-white/90">
                 Testa dina fotbollskunskaper med våra interaktiva spel
               </p>
               <div className="flex justify-center gap-4">
