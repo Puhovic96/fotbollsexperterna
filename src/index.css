@@ -20,9 +20,9 @@
     /* Design system colors */
     --background: var(--off-white);
     --foreground: var(--black);
-    --card: 0 0% 100%;
+    --card: var(--light-gray);
     --card-foreground: var(--black);
-    --popover: 0 0% 100%;
+    --popover: var(--light-gray);
     --popover-foreground: var(--black);
     --primary: var(--black);
     --primary-foreground: 0 0% 100%;
@@ -34,14 +34,14 @@
     --accent-foreground: 0 0% 100%;
     --destructive: var(--accent-red);
     --destructive-foreground: 0 0% 100%;
-    --border: var(--light-gray);
-    --input: 0 0% 100%;
+    --border: var(--medium-gray);
+    --input: var(--light-gray);
     --ring: var(--black);
     --radius: 0.5rem;
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--black)), hsl(var(--dark-gray)));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(var(--off-white)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--light-gray)), hsl(var(--off-white)));
     --gradient-hero: linear-gradient(135deg, hsl(var(--black)), hsl(var(--dark-gray)));
     
     /* Shadows */
