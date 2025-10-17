@@ -28,7 +28,7 @@ const Index = () => {
               </p>
               <div className="flex justify-center gap-4">
                 <Link to="/quiz">
-                  <Button size="lg" className="bg-white text-primary hover:bg-gray-100">
+                  <Button size="lg" variant="secondary">
                     Börja spela
                   </Button>
                 </Link>
@@ -120,9 +120,9 @@ const Index = () => {
                   Gissa spelare, lag eller arenor
                 </CardDescription>
                 <div className="flex justify-center gap-1 mb-4">
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">⚽ Spelare</span>
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">🏆 Lag</span>
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">🏟️ Arenor</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">⚽ Spelare</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">🏆 Lag</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">🏟️ Arenor</span>
                 </div>
                 <Link to="/pa-sparet">
                   <Button className="w-full">
@@ -141,8 +141,8 @@ const Index = () => {
                   Gissa om statistiken är högre eller lägre
                 </CardDescription>
                 <div className="flex justify-center gap-1 mb-4">
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">📊 Stats</span>
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">🎯 Gissa</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">📊 Stats</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">🎯 Gissa</span>
                 </div>
                 <Link to="/higher-lower">
                   <Button className="w-full">
@@ -161,9 +161,9 @@ const Index = () => {
                   Dra och släpp klubbar i rätt ordning
                 </CardDescription>
                 <div className="flex justify-center gap-1 mb-4">
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">🏃‍♂️ Drag</span>
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">📍 Drop</span>
-                  <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded text-xs">⏰ Ordning</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">🏃‍♂️ Drag</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">📍 Drop</span>
+                  <span className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-xs">⏰ Ordning</span>
                 </div>
                 <Link to="/timeline-challenge">
                   <Button className="w-full">
@@ -176,7 +176,7 @@ const Index = () => {
         </section>
 
         {/* Features Section */}
-        <section className="bg-gray-50 py-20 px-4">
+        <section className="bg-muted py-20 px-4">
           <div className="container mx-auto">
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">Varför välja Fotbollsexperterna?</h2>
